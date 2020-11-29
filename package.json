@@ -2,6 +2,7 @@
 	"name": "prirucka-senzoricke-integrace",
 	"version": "0.1.0",
 	"private": true,
+	"homepage": "http://TerezaKlikova.github.io/PriruckaSenzorickeIntegrace",
 	"dependencies": {
 		"@emotion/core": "^10.1.1",
 		"@emotion/is-prop-valid": "^0.8.8",
