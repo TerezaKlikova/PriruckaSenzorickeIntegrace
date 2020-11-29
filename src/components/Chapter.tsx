@@ -1,19 +1,33 @@
 import React, { FC } from 'react';
 
-import { Flex } from 'components/Styled';
 import Text from 'components/Text';
-import AnchorTarget from 'components/AnchorTarget';
+import { Flex } from 'components/Styled';
 
-import { ChapterType } from 'pages/Chapters';
+import { NavItem } from 'pages/Chapters';
 
-const Chapter: FC<ChapterType> = ({ id, title, content }) => (
-	<AnchorTarget id={id} flexDirection="column">
-		<Text my={3} fontWeight="bold" fontSize="xl">
-			{title}
-		</Text>
-		{content}
-		<Flex height={600} />
-	</AnchorTarget>
-);
+import useHeaderHeight from 'hooks/useHeaderHeight';
+
+type Props = {
+	variant?: 'main' | 'activity';
+	color?: string;
+} & NavItem;
+
+const Chapter: FC<Props> = ({ variant, id, title, color, children }) => {
+	const topOffset = useHeaderHeight();
+	return (
+		<Flex
+			id={variant === 'activity' ? `${id}-aktivity` : id}
+			flexDirection="column"
+			mb={variant ? 4 : 3}
+			pt={topOffset}
+			mt={-topOffset}
+		>
+			<Text fontSize={variant ? 'xl' : 'lg'} color={color} fontWeight="bold">
+				{variant === 'activity' ? 'Aktivity' : title}
+			</Text>
+			{children}
+		</Flex>
+	);
+};
 
 export default Chapter;

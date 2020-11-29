@@ -9,40 +9,21 @@ import Chapters, { ChapterType } from 'pages/Chapters';
 import Home from 'pages/Home';
 import UsefulLinks from 'pages/UsefulLinks';
 import Sources from 'pages/Sources';
+import Chapter1 from 'pages/chapters/Chapter1';
+import Chapter2 from 'pages/chapters/Chapter2';
+import Chapter4 from 'pages/chapters/Chapter4';
 
 import { GlobalStyles, ThemeProvider } from 'theme';
 
-import { ReactComponent as Brain } from 'assets/brain.svg';
-import { ReactComponent as JumpingRope } from 'assets/jumping-rope.svg';
-import { ReactComponent as MuscleUp } from 'assets/muscle-up.svg';
-import { ReactComponent as Hand } from 'assets/hand.svg';
 import { ReactComponent as Eye } from 'assets/semi-closed-eye.svg';
 import { ReactComponent as Ear } from 'assets/human-ear.svg';
 import { ReactComponent as Nose } from 'assets/nose-front.svg';
 import { ReactComponent as Tongue } from 'assets/tongue.svg';
+import { ReactComponent as MuscleUp } from 'assets/muscle-up.svg';
 
 const CHAPTERS: ChapterType[] = [
-	{
-		id: 'senzoricka-integrace',
-		icon: Brain,
-		title: 'Senzorická integrace',
-		color: '#ad1457',
-		subchapters: [
-			{ id: 'foo', title: 'foo' },
-			{ id: 'goo', title: 'goo' },
-		],
-		activities: [],
-		content: <div>Senzorická integrace</div>,
-	},
-	{
-		id: 'vestibularni-vnimani',
-		icon: JumpingRope,
-		title: 'Vestibulární vnímání',
-		color: '#4527a0',
-		subchapters: [],
-		activities: [],
-		content: <div>Vestibulární vnímání</div>,
-	},
+	Chapter1,
+	Chapter2,
 	{
 		id: 'proprioceptivni-vnimani',
 		icon: MuscleUp,
@@ -50,17 +31,8 @@ const CHAPTERS: ChapterType[] = [
 		color: '#1565c0',
 		subchapters: [],
 		activities: [],
-		content: <div>Proprioceptivní vnímání</div>,
 	},
-	{
-		id: 'hmatove-vnimani',
-		icon: Hand,
-		title: 'Hmatové vnímání',
-		color: '#00838f',
-		subchapters: [],
-		activities: [],
-		content: <div>Hmatové vnímání</div>,
-	},
+	Chapter4,
 	{
 		id: 'zrakove-vnimani',
 		icon: Eye,
@@ -68,7 +40,6 @@ const CHAPTERS: ChapterType[] = [
 		color: '#2e7d32',
 		subchapters: [],
 		activities: [],
-		content: <div>Zrakové vnímání</div>,
 	},
 	{
 		id: 'sluchove-vnimani',
@@ -77,7 +48,6 @@ const CHAPTERS: ChapterType[] = [
 		color: '#9e9d24',
 		subchapters: [],
 		activities: [],
-		content: <div>Sluchové vnímání</div>,
 	},
 	{
 		id: 'cichove-vnimani',
@@ -86,7 +56,6 @@ const CHAPTERS: ChapterType[] = [
 		color: '#ff8f00',
 		subchapters: [],
 		activities: [],
-		content: <div>Čichové vnímání</div>,
 	},
 	{
 		id: 'chutove-vnimani',
@@ -95,7 +64,6 @@ const CHAPTERS: ChapterType[] = [
 		color: '#d84315',
 		subchapters: [],
 		activities: [],
-		content: <div>Chuťové vnímání</div>,
 	},
 ];
 

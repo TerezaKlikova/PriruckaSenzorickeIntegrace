@@ -10,8 +10,8 @@ import Color from 'color';
 
 import { Box, Flex, Grid } from 'components/Styled';
 import Text from 'components/Text';
-import Chapter from 'components/Chapter';
 import Link from 'components/Link';
+import { ListItem, UnorderedList } from 'components/List';
 
 import useHeaderHeight from 'hooks/useHeaderHeight';
 
@@ -24,8 +24,8 @@ export type ChapterType = NavItem & {
 	icon: FC<SVGProps<SVGSVGElement>>;
 	color: string;
 	subchapters: NavItem[];
-	activities?: NavItem[];
-	content: ReactNode;
+	activities: NavItem[];
+	Content?: FC;
 };
 
 type Props = {
@@ -73,7 +73,7 @@ const Chapters: FC<Props> = ({ children }) => {
 	return (
 		<Flex my={3} position="relative">
 			{/* Desktop */}
-			<Box mr={4} display={['none', 'block']}>
+			<Box mr={4} display={['none', 'block']} flexShrink={0}>
 				<Flex position="sticky" top={topOffset} pt={3} flexDirection="column">
 					{children.map((c, i) => (
 						<Fragment key={c.id}>
@@ -100,20 +100,38 @@ const Chapters: FC<Props> = ({ children }) => {
 								</Flex>
 							</Link>
 							{current === i && (
-								<>
-									<ul>
-										<Box as="li">
-											<Link href={`#${c.id}`}>Co je {c.title}?</Link>
-											<ul>
-												{c.subchapters.map(sub => (
-													<li key={sub.id}>
-														<Link href={`#${sub.id}`}>{sub.title}</Link>
-													</li>
+								<UnorderedList mx={3}>
+									<ListItem>
+										<Link href={`#${c.id}`} p={2}>
+											Co je {c.title}?
+										</Link>
+										<UnorderedList ml={3}>
+											{c.subchapters.map(sub => (
+												<ListItem key={sub.id}>
+													<Link href={`#${sub.id}`} p={2}>
+														{sub.title}
+													</Link>
+												</ListItem>
+											))}
+										</UnorderedList>
+									</ListItem>
+									{c.activities.length > 0 && (
+										<ListItem>
+											<Link href={`#${c.id}-aktivity`} p={2}>
+												Aktivity na {c.title}
+											</Link>
+											<UnorderedList ml={3}>
+												{c.activities.map(sub => (
+													<ListItem key={sub.id}>
+														<Link href={`#${sub.id}`} p={2}>
+															{sub.title}
+														</Link>
+													</ListItem>
 												))}
-											</ul>
-										</Box>
-									</ul>
-								</>
+											</UnorderedList>
+										</ListItem>
+									)}
+								</UnorderedList>
 							)}
 						</Fragment>
 					))}
@@ -158,9 +176,9 @@ const Chapters: FC<Props> = ({ children }) => {
 			</Box>
 
 			<Flex flexDirection="column" flexGrow={1}>
-				{children.map(c => (
-					<Chapter key={c.id} {...c} />
-				))}
+				{children.map(({ id, Content }) =>
+					Content ? <Content key={id} /> : <Text>{id}</Text>,
+				)}
 			</Flex>
 		</Flex>
 	);

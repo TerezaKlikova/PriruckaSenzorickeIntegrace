@@ -1,15 +1,12 @@
 import React, { FC } from 'react';
 
 import Text from 'components/Text';
-import AnchorTarget from 'components/AnchorTarget';
+import Chapter from 'components/Chapter';
 
 const UsefulLinks: FC = () => (
-	<AnchorTarget id="uzitecne-odkazy" flexDirection="column">
-		<Text fontSize="xl" fontWeight="bold" color="primary" my={3}>
-			Užitečné odkazy
-		</Text>
+	<Chapter id="uzitecne-odkazy" title="Užitečné odkazy">
 		<Text height={1600} />
-	</AnchorTarget>
+	</Chapter>
 );
 
 export default UsefulLinks;

@@ -14,7 +14,7 @@ const theme = {
 		text: 'black',
 	},
 	breakpoints: ['52em', '76em'],
-	fontSizes: { sm: 14, md: 16, lg: 20, xl: 24 },
+	fontSizes: { sm: 14, md: 16, lg: 20, xl: 32 },
 	fontFamily: 'Raleway',
 	space: [0, 4, 8, 16, 32, 64, 128, 256, 512],
 };

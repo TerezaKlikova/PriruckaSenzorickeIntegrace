@@ -35,6 +35,8 @@ const GlobalStyles = () => (
 				font-family: ${theme.fontFamily}, -apple-system, BlinkMacSystemFont,
 					'Segoe UI', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
 					'Helvetica Neue', sans-serif;
+				font-size: ${theme.fontSizes.md}px;
+				font-weight: 500;
 			}
 
 			*:focus {
@@ -43,7 +45,8 @@ const GlobalStyles = () => (
 
 			p {
 				padding: 0;
-				margin: 0;
+				/* margin: 0; */
+				margin: ${theme.space[2]}px 0;
 			}
 		`}
 	/>
