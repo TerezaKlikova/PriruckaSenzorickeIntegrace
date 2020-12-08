@@ -11,6 +11,7 @@ import UsefulLinks from 'pages/UsefulLinks';
 import Sources from 'pages/Sources';
 import Chapter1 from 'pages/chapters/Chapter1';
 import Chapter2 from 'pages/chapters/Chapter2';
+import Chapter3 from 'pages/chapters/Chapter3';
 import Chapter4 from 'pages/chapters/Chapter4';
 
 import { GlobalStyles, ThemeProvider } from 'theme';
@@ -19,19 +20,11 @@ import { ReactComponent as Eye } from 'assets/semi-closed-eye.svg';
 import { ReactComponent as Ear } from 'assets/human-ear.svg';
 import { ReactComponent as Nose } from 'assets/nose-front.svg';
 import { ReactComponent as Tongue } from 'assets/tongue.svg';
-import { ReactComponent as MuscleUp } from 'assets/muscle-up.svg';
 
 const CHAPTERS: ChapterType[] = [
 	Chapter1,
 	Chapter2,
-	{
-		id: 'proprioceptivni-vnimani',
-		icon: MuscleUp,
-		title: 'Proprioceptivní vnímání',
-		color: '#1565c0',
-		subchapters: [],
-		activities: [],
-	},
+	Chapter3,
 	Chapter4,
 	{
 		id: 'zrakove-vnimani',

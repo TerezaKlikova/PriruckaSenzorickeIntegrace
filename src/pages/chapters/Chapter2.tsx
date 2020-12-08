@@ -4,12 +4,21 @@ import Text from 'components/Text';
 import Img from 'components/Img';
 import { ListItem, UnorderedList } from 'components/List';
 import Chapter from 'components/Chapter';
+import Gallery from 'components/Gallery';
 
 import { ChapterType } from 'pages/Chapters';
 
 import { MapChapters } from 'utils';
 
 import { ReactComponent as JumpingRope } from 'assets/jumping-rope.svg';
+import houpani3 from 'assets/chapter2/houpani3.png';
+import houpani2 from 'assets/chapter2/houpani2.png';
+import houpani1 from 'assets/chapter2/houpani1.png';
+import most1 from 'assets/chapter2/most1.png';
+import prkno1 from 'assets/chapter2/prkno1.png';
+import deska1 from 'assets/chapter2/deska1.png';
+import deska2 from 'assets/chapter2/deska2.png';
+import lezeni1 from 'assets/chapter2/lezeni1.jpg';
 
 const metadata = {
 	id: 'vestibularni-vnimani',
@@ -22,7 +31,16 @@ const metadata = {
 		'Vyhledávají extra podněty',
 		'Slabá pohybová diskriminace',
 	]),
-	activities: [],
+	activities: MapChapters('vestibularni-vnimani', 'aktivita', [
+		'Houpání',
+		'Houpací most',
+		'Houpací prkno',
+		'Skákání',
+		'Zavěšení hlavou dolů',
+		'Jízda na pojízdné desce',
+		'Otáčení na twisteru',
+		'Lezení do vyšších míst',
+	]),
 } as ChapterType;
 
 const Content: FC = () => (
@@ -142,8 +160,122 @@ const Content: FC = () => (
 				Všechny činnosti na rozvoj vestibulárního systému, jsou založeny na
 				pohybu těla, respektive hlavy. Tak, aby se rovnovážné vnímání ve
 				vnitřním uchu mělo možnost při svém deficitu, se rozvíjet tak, jak
-				potřebuje.{' '}
+				potřebuje.
 			</Text>
+		</Chapter>
+
+		<Chapter {...metadata.activities[0]}>
+			<Text>
+				Houpat se mohou děti klasiky na houpačce, ale pokud na ni nemáte místo,
+				houpat můžete dítě i dece, nebo na zavěšeném laně. Skvele jsou houpačky
+				ploché rovné, na kterých si může stimulovat hmat (přejíždí rukama po
+				zemi). Dále se dají využít jako nácvik koordinace pohybu, dítě se houpe
+				v houpačce (leží na bříšku) a zároveň si hází balon, nebo kruhy na
+				určené místo.
+			</Text>
+			<Text>
+				Pokud nesmíte nemůžete vrtat do stropu, dají se využít stojany.
+			</Text>
+			<Gallery>
+				<Img src={houpani1} />
+				<Img src={houpani2} />
+				<Img src={houpani3} />
+			</Gallery>
+		</Chapter>
+
+		<Chapter {...metadata.activities[1]}>
+			<Text>
+				Most můžete využít jak na houpání, tak při otoční jako malu průlezku.
+				Trénujete tím rovnovážné cítění, hrubou motoriku a vestibulární systém.
+			</Text>
+			<Gallery>
+				<Img src={most1} />
+			</Gallery>
+		</Chapter>
+
+		<Chapter {...metadata.activities[2]}>
+			<Text>
+				Určeno pro dětí s vyvinutější motorickými schopnostmi. Prkno se skvělé k
+				vývoji rovnováhy, tonusu těla, stability, hrubé motoriky aj.
+			</Text>
+			<Gallery>
+				<Img src={prkno1} />
+			</Gallery>
+		</Chapter>
+
+		<Chapter {...metadata.activities[3]}>
+			<Text>
+				Dalším důležitým pohybem pro rozvoj vestibulárního vnímání je skákání.
+				Vhodnou a dostupnou pomůckou je gymnastický míč, nebo trampolína. Na
+				balonu je dobré, aby dítě skákalo ve stoje, za pomoci držení rodiče.
+				Balon bud do rohu místnosti, nebo o hranu pohovku, do které poté může i
+				padat. Dobré je skákání doplnit písničkou, nebo říkankou. Dáte může
+				skákat do všech směrů, pokud už zvládá skákat samo, nechme ho.
+			</Text>
+			<Text>
+				Pokud nemáte trampolínu, využít můžete i na sebe poskládané polštáře,
+				nebo molitany.
+			</Text>
+		</Chapter>
+
+		<Chapter {...metadata.activities[4]}>
+			<Text>
+				Pokud jste si všimli, že vaše se dítě rádo houpe hlavou dolů, nechte ho.
+				Doplňuje si tak vestibulární input, který mu chybí. Houpat je může samo,
+				položením na postel, nebo ho můžete vzít za nohy a houpat. Provádějte
+				tuto aktivtu, ale pouze po krátkou dobu, aby se nepřekrvila hlava.
+			</Text>
+		</Chapter>
+
+		<Chapter {...metadata.activities[5]}>
+			<Text>
+				Využít můžete skateboardu, nebo i stěhovací desku na kolečkách. Výhoda
+				je, když jde zavázat na provázek. Pro menší a méně obratné děti, které
+				se neumí odrážet, je tohle možnost jak se povozit. Lehnout si může dítě
+				na břicho, nebo sedět. Připravit pro ně můžete překážkovou dráhu, nebo
+				vozit k odměně, či to využít jak místo k dalším činnostem. Některým
+				dětem se při předklonu hlavy lépe pracuje, jsou vnímavější (zapojí více
+				vestibulární vnímání), můžete jim nachystat puzzle na skládání,
+				malování, nebo jiné činnosti.
+			</Text>
+			<Gallery>
+				<Img src={deska1} />
+				<Img src={deska2} />
+			</Gallery>
+			<Text>
+				Inspiraci pro další aktivity s deskou naleznete{' '}
+				<a
+					href="https://www.mymundaneandmiraculouslife.com/scooter-board-sensory-activities/"
+					target="_blank"
+					rel="noreferrer"
+				>
+					zde
+				</a>
+				.
+			</Text>
+		</Chapter>
+
+		<Chapter {...metadata.activities[6]}>
+			<Text>
+				Stačí pořídit obyčejný twister a dítě se otáčí samo, nebo ho chytíte za
+				ruce a otáčíte ho vy.
+			</Text>
+		</Chapter>
+
+		<Chapter {...metadata.activities[7]}>
+			<Text>
+				Pokud jste si všimli, že dítě rádo leze na nábytek, stoly a celkově
+				vyšší prostory, uzpůsobte mu prostředí tak, aby měl potřebu nasycenou,
+				ale byl v bezpečí. Využít můžete žebřiny, lezeckou stěnu, poschoďovou
+				postel.
+			</Text>
+			<Text>
+				Příklad instalace žebřin v jedné domácnosti: Zde jsou žebřiny spojene i
+				s houpačkou, lanem, žebřiny jsou předsunutí.
+			</Text>
+			<Gallery>
+				<Img src={lezeni1} />
+			</Gallery>
 		</Chapter>
 	</Chapter>
 );

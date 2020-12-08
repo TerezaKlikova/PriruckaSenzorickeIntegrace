@@ -1,7 +1,6 @@
 import React, {
 	FC,
 	Fragment,
-	ReactNode,
 	SVGProps,
 	useLayoutEffect,
 	useState,
@@ -73,7 +72,7 @@ const Chapters: FC<Props> = ({ children }) => {
 	return (
 		<Flex my={3} position="relative">
 			{/* Desktop */}
-			<Box mr={4} display={['none', 'block']} flexShrink={0}>
+			<Box mr={4} display={['none', 'block']} maxWidth="40%" flexShrink={0}>
 				<Flex position="sticky" top={topOffset} pt={3} flexDirection="column">
 					{children.map((c, i) => (
 						<Fragment key={c.id}>
