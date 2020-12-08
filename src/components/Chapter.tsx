@@ -1,3 +1,5 @@
+/** @jsxImportSource @emotion/core */
+import { css } from '@emotion/core';
 import React, { FC } from 'react';
 
 import Text from 'components/Text';
@@ -21,8 +23,23 @@ const Chapter: FC<Props> = ({ variant, id, title, color, children }) => {
 			mb={variant ? 4 : 3}
 			pt={topOffset}
 			mt={-topOffset}
+			css={css`
+				@media print {
+					${variant === 'main' &&
+					css`
+						page-break-before: always;
+					`}
+				}
+			`}
 		>
-			<Text fontSize={variant ? 'xl' : 'lg'} color={color} fontWeight="bold">
+			<Text
+				fontSize={variant ? 'xl' : 'lg'}
+				color={color}
+				fontWeight="bold"
+				css={css`
+					page-break-after: avoid;
+				`}
+			>
 				{variant === 'activity' ? 'Aktivity' : title}
 			</Text>
 			{children}

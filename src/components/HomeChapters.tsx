@@ -1,3 +1,5 @@
+/** @jsxImportSource @emotion/core */
+import { css } from '@emotion/core';
 import React, { FC } from 'react';
 
 import { Box, Flex, Grid } from 'components/Styled';
@@ -14,6 +16,11 @@ const HomeChapters: FC<Props> = ({ children }) => (
 		gridTemplateColumns="repeat(auto-fill, minMax(250px, 1fr))"
 		gridGap={3}
 		my={3}
+		css={css`
+			@media print {
+				display: none;
+			}
+		`}
 	>
 		{children.map(c => (
 			<Box key={c.id} position="relative" height={0} pb="100%">

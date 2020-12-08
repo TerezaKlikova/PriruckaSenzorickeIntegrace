@@ -1,3 +1,5 @@
+/** @jsxImportSource @emotion/core */
+import { css } from '@emotion/core';
 import React, {
 	FC,
 	Fragment,
@@ -72,7 +74,17 @@ const Chapters: FC<Props> = ({ children }) => {
 	return (
 		<Flex my={3} position="relative">
 			{/* Desktop */}
-			<Box mr={4} display={['none', 'block']} maxWidth="40%" flexShrink={0}>
+			<Box
+				mr={4}
+				display={['none', 'block']}
+				maxWidth="40%"
+				flexShrink={0}
+				css={css`
+					@media print {
+						display: none;
+					}
+				`}
+			>
 				<Flex position="sticky" top={topOffset} pt={3} flexDirection="column">
 					{children.map((c, i) => (
 						<Fragment key={c.id}>
@@ -145,6 +157,11 @@ const Chapters: FC<Props> = ({ children }) => {
 				bottom={mobileChaptersOffset}
 				left={0}
 				right={0}
+				css={css`
+					@media print {
+						display: none;
+					}
+				`}
 			>
 				<Box height="100%" />
 				<Grid
@@ -176,7 +193,7 @@ const Chapters: FC<Props> = ({ children }) => {
 
 			<Flex flexDirection="column" flexGrow={1}>
 				{children.map(({ id, Content }) =>
-					Content ? <Content key={id} /> : <Text>{id}</Text>,
+					Content ? <Content key={id} /> : <Text key={id}>{id}</Text>,
 				)}
 			</Flex>
 		</Flex>

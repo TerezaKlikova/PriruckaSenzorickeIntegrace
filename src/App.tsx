@@ -67,7 +67,7 @@ function App() {
 			<Flex as="main" flexDirection="column" minHeight="100vh">
 				<Header
 					items={[
-						{ title: 'Stáhnout PDF', href: 'stahnout-pdf' },
+						{ title: 'Stáhnout PDF', onClick: print },
 						{ title: 'Užitečné odkazy', href: 'uzitecne-odkazy' },
 						{ title: 'Použité zdroje', href: 'pouzite-zdroje' },
 					]}

@@ -1,10 +1,11 @@
 /** @jsxImportSource @emotion/core */
-import React, { FC, useState } from 'react';
 import { css } from '@emotion/core';
+import React, { FC, useState } from 'react';
 
 import { Box, Flex } from 'components/Styled';
 import Wrapper from 'components/Wrapper';
 import Link from 'components/Link';
+import Button from 'components/Button';
 
 import { InvertFocusStyle, Theme } from 'theme';
 
@@ -12,7 +13,8 @@ import { ReactComponent as HamburgerIcon } from 'assets/hamburger-menu.svg';
 
 type Props = {
 	items: {
-		href: string;
+		onClick?: () => void;
+		href?: string;
 		title: string;
 	}[];
 };
@@ -20,7 +22,18 @@ type Props = {
 const Header: FC<Props> = ({ items }) => {
 	const [expanded, setExpanded] = useState(false);
 	return (
-		<Box as="header" bg="primary" position="sticky" top={0} zIndex={1}>
+		<Box
+			as="header"
+			bg="primary"
+			position="sticky"
+			top={0}
+			zIndex={1}
+			css={css`
+				@media print {
+					display: none;
+				}
+			`}
+		>
 			<Wrapper
 				py={2}
 				flexDirection={['column', 'row']}
@@ -90,20 +103,35 @@ const Header: FC<Props> = ({ items }) => {
 						`}
 					>
 						{items.map(i => (
-							<Box key={i.href} as="li" py={3}>
-								<Link
-									p={2}
-									href={`#${i.href}`}
-									color="white"
-									css={css`
-										&:focus {
-											${InvertFocusStyle}
-										}
-									`}
-								>
-									{i.title}
-								</Link>
-							</Box>
+							<Flex key={i.title} as="li" py={3}>
+								{i.href ? (
+									<Link
+										p={2}
+										href={`#${i.href}`}
+										color="white"
+										css={css`
+											&:focus {
+												${InvertFocusStyle}
+											}
+										`}
+									>
+										{i.title}
+									</Link>
+								) : (
+									<Button
+										p={2}
+										onClick={i.onClick}
+										color="white"
+										css={css`
+											&:focus {
+												${InvertFocusStyle}
+											}
+										`}
+									>
+										{i.title}
+									</Button>
+								)}
+							</Flex>
 						))}
 					</Flex>
 				</nav>
