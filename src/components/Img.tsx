@@ -6,6 +6,7 @@ const Img = styled(Box)`
 	@media print {
 		page-break-inside: avoid;
 		max-height: 250px;
+		max-width: 33%;
 	}
 `.withComponent('img');
 Img.defaultProps = {

@@ -4,6 +4,7 @@ import { Flex } from 'components/Styled';
 import Header from 'components/Header';
 import Wrapper from 'components/Wrapper';
 import HomeChapters from 'components/HomeChapters';
+import PrintTitlePage from 'components/PrintTitlePage';
 
 import Chapters, { ChapterType } from 'pages/Chapters';
 import Home from 'pages/Home';
@@ -65,6 +66,7 @@ function App() {
 		<ThemeProvider>
 			<GlobalStyles />
 			<Flex as="main" flexDirection="column" minHeight="100vh">
+				<PrintTitlePage />
 				<Header
 					items={[
 						{ title: 'Stáhnout PDF', onClick: print },

@@ -45,8 +45,23 @@ const GlobalStyles = () => (
 
 			p {
 				padding: 0;
-				/* margin: 0; */
 				margin: ${theme.space[2]}px 0;
+			}
+
+			@page {
+				size: A5 portrait;
+				margin: 10mm;
+			}
+
+			@page :first {
+				margin: 15mm;
+			}
+
+			@page :left {
+				margin-left: 15mm;
+			}
+			@page :right {
+				margin-right: 15mm;
 			}
 		`}
 	/>

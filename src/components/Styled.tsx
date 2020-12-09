@@ -95,10 +95,14 @@ Box.defaultProps = {
 
 export const Flex = styled(Box)<FlexProps>`
 	${compose(flexbox)}
-	display: flex;
+	@media not print {
+		display: flex;
+	}
 `;
 
 export const Grid = styled(Box)<BoxProps & GridProps & GridAlignProps>`
 	${compose(grid, justifyItems, alignItems, justifyContent, alignContent)}
-	display: grid;
+	@media not print {
+		display: grid;
+	}
 `;

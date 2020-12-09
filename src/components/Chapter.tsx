@@ -29,17 +29,16 @@ const Chapter: FC<Props> = ({ variant, id, title, color, children }) => {
 					css`
 						page-break-before: always;
 					`}
+					${variant !== 'main' &&
+					css`
+						page-break-inside: avoid;
+					`}
+					margin: 0;
+					padding: 0;
 				}
 			`}
 		>
-			<Text
-				fontSize={variant ? 'xl' : 'lg'}
-				color={color}
-				fontWeight="bold"
-				css={css`
-					page-break-after: avoid;
-				`}
-			>
+			<Text fontSize={variant ? 'xl' : 'lg'} color={color} fontWeight="bold">
 				{variant === 'activity' ? 'Aktivity' : title}
 			</Text>
 			{children}

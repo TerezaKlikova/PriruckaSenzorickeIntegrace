@@ -35,7 +35,7 @@ const Content: FC = () => (
 			neuvědomíme, ale proto, aby se dostavila žádaná reakce (uhnutí ruky před
 			ohněm) potřebujeme dobré fungování všech částí procesu.
 		</Text>
-		<Img src={sensorImg} alignSelf="center" maxHeight={250} />
+		<Img src={sensorImg} mx="auto" maxHeight={250} />
 		<Text>
 			K tomu, abychom dobře vnímali příchozí informace potřebujeme smysly. Každý
 			známe 5 smyslu - sluch, čich, chuť, zrak a hmat. Nejsou to však jediné,
