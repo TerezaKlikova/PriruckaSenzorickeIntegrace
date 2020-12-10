@@ -96,102 +96,105 @@ const Content: FC = () => (
 			</UnorderedList>
 		</Chapter>
 
-		<Chapter variant="activity" {...metadata} />
+		<Chapter variant="activity" {...metadata}>
+			<Chapter {...metadata.activities[0]}>
+				<Text>
+					Válec produkuje barevné příjemné světlo, vně mohou plavat rybičky,
+					nebo bublinky. Je dobrým pomocníkem k nácviku udržení pozornosti,
+					pojmenování barev, relaxaci. Vhodné pro děti nestálou emocionalitou,
+					krásně se dokáží u světel zklidnit.
+				</Text>
+				<Gallery>
+					<Img {...GALLERY['chapter-5-valec1']} />
+				</Gallery>
+			</Chapter>
 
-		<Chapter {...metadata.activities[0]}>
-			<Text>
-				Válec produkuje barevné příjemné světlo, vně mohou plavat rybičky, nebo
-				bublinky. Je dobrým pomocníkem k nácviku udržení pozornosti, pojmenování
-				barev, relaxaci. Vhodné pro děti nestálou emocionalitou, krásně se
-				dokáží u světel zklidnit.
-			</Text>
-			<Gallery>
-				<Img {...GALLERY['chapter-5-valec1']} />
-			</Gallery>
-		</Chapter>
+			<Chapter {...metadata.activities[1]}>
+				<Text>
+					Pomůcka, kterou si můžete vyrobit doma. Stačí nasypat trochu sodu na
+					dně láhve, přidat do dvou třetin láhve olej a poté obarevný ocet. Soda
+					začne reagovat s octem v oleji do bublinek. Ocet taktéž můžeme
+					přidávat do láhve po troškách kapátkem a trénovat tak jemnou motoriku.
+					Pro další aktivity na stimulaci zrakového vnímání můžete využít
+					sklenici naplněnou vodou a holící pěnou, do které kapátkem kapete
+					potravinářské barvivo.
+				</Text>
+				<Text>
+					Alternativa ke koupi jsou tyto přesýpací tekuté hodiny (tyto jsou
+					koupené na stránce kidtown).
+				</Text>
+				<Gallery>
+					<Img {...GALLERY['chapter-5-lampa1']} />
+					<Img {...GALLERY['chapter-5-lampa2']} />
+					<Img {...GALLERY['chapter-5-lampa3']} />
+				</Gallery>
+			</Chapter>
 
-		<Chapter {...metadata.activities[1]}>
-			<Text>
-				Pomůcka, kterou si můžete vyrobit doma. Stačí nasypat trochu sodu na dně
-				láhve, přidat do dvou třetin láhve olej a poté obarevný ocet. Soda začne
-				reagovat s octem v oleji do bublinek. Ocet taktéž můžeme přidávat do
-				láhve po troškách kapátkem a trénovat tak jemnou motoriku. Pro další
-				aktivity na stimulaci zrakového vnímání můžete využít sklenici naplněnou
-				vodou a holící pěnou, do které kapátkem kapete potravinářské barvivo.
-			</Text>
-			<Text>
-				Alternativa ke koupi jsou tyto přesýpací tekuté hodiny (tyto jsou
-				koupené na stránce kidtown).
-			</Text>
-			<Gallery>
-				<Img {...GALLERY['chapter-5-lampa1']} />
-				<Img {...GALLERY['chapter-5-lampa2']} />
-				<Img {...GALLERY['chapter-5-lampa3']} />
-			</Gallery>
-		</Chapter>
+			<Chapter {...metadata.activities[2]}>
+				<Text>
+					Využít můžete baterky, světelné řetězy, světelné míče, obrázkové
+					kotouče nebo “kouzelné” lampy (světelné koule co produkují buď
+					relaxační světlo, nebo naopak světelné záblesky, podle potřeb dítěte
+					viz. fot). Jde nám zejména o relaxační účel, světlo pouštějte dětem v
+					temné místnosti, např pod dekou, v bunkru, nebo v uzavřené místnosti.
+				</Text>
+				<Gallery>
+					<Img {...GALLERY['chapter-5-predmety1']} />
+					<Img {...GALLERY['chapter-5-predmety2']} />
+				</Gallery>
+			</Chapter>
 
-		<Chapter {...metadata.activities[2]}>
-			<Text>
-				Využít můžete baterky, světelné řetězy, světelné míče, obrázkové kotouče
-				nebo “kouzelné” lampy (světelné koule co produkují buď relaxační světlo,
-				nebo naopak světelné záblesky, podle potřeb dítěte viz. fot). Jde nám
-				zejména o relaxační účel, světlo pouštějte dětem v temné místnosti, např
-				pod dekou, v bunkru, nebo v uzavřené místnosti.
-			</Text>
-			<Gallery>
-				<Img {...GALLERY['chapter-5-predmety1']} />
-				<Img {...GALLERY['chapter-5-predmety2']} />
-			</Gallery>
-		</Chapter>
+			<Chapter {...metadata.activities[3]}>
+				<Text>
+					Krabice je zespodu podsvícená, tak aby zvýraznila co nejvíce předměty
+					na ní položení. Dobré je v místnosti zhasnout a nechat svítit pouze
+					krabici, dětem se tak sníží možnost rozrušovat se jinými podněty a
+					mohou se soustředit pouze na úkoly na krabici. Na víko krabice můžete
+					vkládat barevné průsvitné obrazce (viz spodní obrázek), nebo nasypat
+					mouku a kreslit čísla, nebo písmena.
+				</Text>
+				<Gallery>
+					<Img {...GALLERY['chapter-5-krabice1']} />
+					<Img {...GALLERY['chapter-5-krabice2']} />
+				</Gallery>
+			</Chapter>
 
-		<Chapter {...metadata.activities[3]}>
-			<Text>
-				Krabice je zespodu podsvícená, tak aby zvýraznila co nejvíce předměty na
-				ní položení. Dobré je v místnosti zhasnout a nechat svítit pouze
-				krabici, dětem se tak sníží možnost rozrušovat se jinými podněty a mohou
-				se soustředit pouze na úkoly na krabici. Na víko krabice můžete vkládat
-				barevné průsvitné obrazce (viz spodní obrázek), nebo nasypat mouku a
-				kreslit čísla, nebo písmena.
-			</Text>
-			<Gallery>
-				<Img {...GALLERY['chapter-5-krabice1']} />
-				<Img {...GALLERY['chapter-5-krabice2']} />
-			</Gallery>
-		</Chapter>
+			<Chapter {...metadata.activities[4]}>
+				<Text>
+					Můžete si sami z kousku větvičky, provázku a magnetu vyrobit prut.
+					Stačí jenom nachystat papírové, nebo látkové rybičky s magnety. Cílem
+					je plná zraková kontrola a motoricka koordinace, aby dítě rybičku
+					chytilo.
+				</Text>
+			</Chapter>
 
-		<Chapter {...metadata.activities[4]}>
-			<Text>
-				Můžete si sami z kousku větvičky, provázku a magnetu vyrobit prut. Stačí
-				jenom nachystat papírové, nebo látkové rybičky s magnety. Cílem je plná
-				zraková kontrola a motoricka koordinace, aby dítě rybičku chytilo.
-			</Text>
-		</Chapter>
+			<Chapter {...metadata.activities[5]}>
+				<Text>
+					V případě, že má dítě problém rozpoznat předmět, pokud ho nemá
+					zobrazený celý, nebo nerozpozná rozdíly mezi předměty a tvary,
+					nerozpozná obličeje. Můžete zkusit tyto hry:
+				</Text>
+				<UnorderedList>
+					<ListItem>
+						přiřazování stejných dvojic k sobě (boty, různé přírodniny, ponožky)
+					</ListItem>
+					<ListItem>skládání zjednodušeného (3-5 dílného) puzzle</ListItem>
+					<ListItem>
+						přiřazování grafických objektů k sobě (3D na 2D/ stejné obrázky s
+						různou barvou)
+					</ListItem>
+					<ListItem>hledání východu v papírovém bludišti</ListItem>
+					<ListItem>pexeso</ListItem>
+				</UnorderedList>
+			</Chapter>
 
-		<Chapter {...metadata.activities[5]}>
-			<Text>
-				V případě, že má dítě problém rozpoznat předmět, pokud ho nemá zobrazený
-				celý, nebo nerozpozná rozdíly mezi předměty a tvary, nerozpozná
-				obličeje. Můžete zkusit tyto hry:
-			</Text>
-			<UnorderedList>
-				<ListItem>
-					přiřazování stejných dvojic k sobě (boty, různé přírodniny, ponožky)
-				</ListItem>
-				<ListItem>skládání zjednodušeného (3-5 dílného) puzzle</ListItem>
-				<ListItem>
-					přiřazování grafických objektů k sobě (3D na 2D/ stejné obrázky s
-					různou barvou)
-				</ListItem>
-				<ListItem>hledání východu v papírovém bludišti</ListItem>
-				<ListItem>pexeso</ListItem>
-			</UnorderedList>
-		</Chapter>
-
-		<Chapter {...metadata.activities[6]}>
-			<Text>
-				Navigujeme dítě ve známém prostředí, ono mezitím ukládá věci na místo,
-				dle pokynu. Procvičujete sluchovou pamět, vnímání a diferenciaci hlásek.
-			</Text>
+			<Chapter {...metadata.activities[6]}>
+				<Text>
+					Navigujeme dítě ve známém prostředí, ono mezitím ukládá věci na místo,
+					dle pokynu. Procvičujete sluchovou pamět, vnímání a diferenciaci
+					hlásek.
+				</Text>
+			</Chapter>
 		</Chapter>
 	</Chapter>
 );

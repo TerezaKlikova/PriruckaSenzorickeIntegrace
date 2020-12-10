@@ -80,68 +80,68 @@ const Content: FC = () => (
 			</UnorderedList>
 		</Chapter>
 
-		<Chapter variant="activity" {...metadata} />
+		<Chapter variant="activity" {...metadata}>
+			<Chapter {...metadata.activities[0]}>
+				<Text>
+					Vhodný je např. xylofon, u kterého můžete pracovat i se zrakovou a
+					hudební pamětí. Můžete vytvořit “noty” podle barviček klaves xylofonu.
+					Naučit se jednoduché písničky, nebo jenom tak nechat dítě opakovat
+					zvuky. Vhodné jsou také bubínky (ne elektrické), kde můžeme spojit i
+					regulaci síly a procvičení rytmiky. Vytvořit si můžete i vlastni
+					zvonkohru z příborů a vařečky, opět zde můžeme spojit regulaci síly v
+					úhodu, jemnou motoriku a koordinaci oko - ruka.
+				</Text>
+				<Text>
+					Taktéž můžete využít dechové nástroje (flétny, foukací harmonika …)
+					upevňuje svalstvo úst a správný výdechový proud.
+				</Text>
+			</Chapter>
 
-		<Chapter {...metadata.activities[0]}>
-			<Text>
-				Vhodný je např. xylofon, u kterého můžete pracovat i se zrakovou a
-				hudební pamětí. Můžete vytvořit “noty” podle barviček klaves xylofonu.
-				Naučit se jednoduché písničky, nebo jenom tak nechat dítě opakovat
-				zvuky. Vhodné jsou také bubínky (ne elektrické), kde můžeme spojit i
-				regulaci síly a procvičení rytmiky. Vytvořit si můžete i vlastni
-				zvonkohru z příborů a vařečky, opět zde můžeme spojit regulaci síly v
-				úhodu, jemnou motoriku a koordinaci oko - ruka.
-			</Text>
-			<Text>
-				Taktéž můžete využít dechové nástroje (flétny, foukací harmonika …)
-				upevňuje svalstvo úst a správný výdechový proud.
-			</Text>
-		</Chapter>
+			<Chapter {...metadata.activities[1]}>
+				<Text>
+					Můžete zvuky rozeznávat, určovat komu patří a následně si o zvířátkách
+					povídat.
+				</Text>
+			</Chapter>
 
-		<Chapter {...metadata.activities[1]}>
-			<Text>
-				Můžete zvuky rozeznávat, určovat komu patří a následně si o zvířátkách
-				povídat.
-			</Text>
-		</Chapter>
+			<Chapter {...metadata.activities[2]}>
+				<Text>
+					Pro dětí s dysfunkcí nejen ve sluchovém vnímání, ale ve všech
+					smyslech, se využívá terapeutického poslechu modulované hudby dle
+					Tomatise, Berarda a Steinbacha (zde je důležité dodržet, aby terapii
+					prováděl proškolený terapeut). Hudba je elektronicky upravena, tak by
+					vyvolala specifické odpovědi a pomáhá s tvorbou adaptivní odpovědi ve
+					smyslovém zpracování.
+				</Text>
+			</Chapter>
 
-		<Chapter {...metadata.activities[2]}>
-			<Text>
-				Pro dětí s dysfunkcí nejen ve sluchovém vnímání, ale ve všech smyslech,
-				se využívá terapeutického poslechu modulované hudby dle Tomatise,
-				Berarda a Steinbacha (zde je důležité dodržet, aby terapii prováděl
-				proškolený terapeut). Hudba je elektronicky upravena, tak by vyvolala
-				specifické odpovědi a pomáhá s tvorbou adaptivní odpovědi ve smyslovém
-				zpracování.
-			</Text>
-		</Chapter>
+			<Chapter {...metadata.activities[3]}>
+				<Text>
+					Jsou založená také na programu sluchové stimulace. Ta je vytvořena
+					kódováním hudby v rámci parametrů Berardovy sluchové integrace.
+					Princip poslechu je velmi podobný, 2x denně po dobu 30 min. Výhodou
+					je, že není potřeba terapeuta, ale CD jsou předem nechystány.
+				</Text>
+			</Chapter>
 
-		<Chapter {...metadata.activities[3]}>
-			<Text>
-				Jsou založená také na programu sluchové stimulace. Ta je vytvořena
-				kódováním hudby v rámci parametrů Berardovy sluchové integrace. Princip
-				poslechu je velmi podobný, 2x denně po dobu 30 min. Výhodou je, že není
-				potřeba terapeuta, ale CD jsou předem nechystány.
-			</Text>
-		</Chapter>
+			<Chapter {...metadata.activities[4]}>
+				<Text>
+					Je možné ho zakoupit, ale také vyrobit sami. Například z krabiček od
+					sirek, nebo lahviček od léků. Do nich vložíme různé materiály
+					(hřebíčky, sul, koření, luštěniny). Nádoby vyrobíme do páru a můžeme
+					bud hrát pexeso, nebo loto či hádání osahu nádoby.
+				</Text>
+			</Chapter>
 
-		<Chapter {...metadata.activities[4]}>
-			<Text>
-				Je možné ho zakoupit, ale také vyrobit sami. Například z krabiček od
-				sirek, nebo lahviček od léků. Do nich vložíme různé materiály (hřebíčky,
-				sul, koření, luštěniny). Nádoby vyrobíme do páru a můžeme bud hrát
-				pexeso, nebo loto či hádání osahu nádoby.
-			</Text>
-		</Chapter>
+			<Chapter {...metadata.activities[5]} />
 
-		<Chapter {...metadata.activities[5]} />
-
-		<Chapter {...metadata.activities[6]}>
-			<Text>
-				Speciální sluchátka, vhodná pro děti hypersenzitivní na zvuky. Poskytnou
-				jim tam chvíli klidu a odpočinku, dobré využívat v hlučném prostředí,
-				nebo před spaním.
-			</Text>
+			<Chapter {...metadata.activities[6]}>
+				<Text>
+					Speciální sluchátka, vhodná pro děti hypersenzitivní na zvuky.
+					Poskytnou jim tam chvíli klidu a odpočinku, dobré využívat v hlučném
+					prostředí, nebo před spaním.
+				</Text>
+			</Chapter>
 		</Chapter>
 	</Chapter>
 );

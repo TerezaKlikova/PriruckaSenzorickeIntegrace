@@ -56,18 +56,18 @@ const Content: FC = () => (
 			</UnorderedList>
 		</Chapter>
 
-		<Chapter variant="activity" {...metadata} />
+		<Chapter variant="activity" {...metadata}>
+			<Chapter {...metadata.activities[0]}>
+				<Text>
+					Aromaterapie je pro mnoho děti, ale i dospělých skvělým prostředkem k
+					relaxaci, ale také k aktivizaci smyslů. Je potřeba využívat kvalitní
+					oleje, aby měly správný účinek.
+				</Text>
+			</Chapter>
 
-		<Chapter {...metadata.activities[0]}>
-			<Text>
-				Aromaterapie je pro mnoho děti, ale i dospělých skvělým prostředkem k
-				relaxaci, ale také k aktivizaci smyslů. Je potřeba využívat kvalitní
-				oleje, aby měly správný účinek.
-			</Text>
-		</Chapter>
-
-		<Chapter {...metadata.activities[1]}>
-			<Text>Dítě hádá známé vůně podle čichu, bez zrakové opory.</Text>
+			<Chapter {...metadata.activities[1]}>
+				<Text>Dítě hádá známé vůně podle čichu, bez zrakové opory.</Text>
+			</Chapter>
 		</Chapter>
 	</Chapter>
 );

@@ -67,46 +67,46 @@ const Content: FC = () => (
 			</UnorderedList>
 		</Chapter>
 
-		<Chapter variant="activity" {...metadata} />
+		<Chapter variant="activity" {...metadata}>
+			<Chapter {...metadata.activities[0]}>
+				<Text>
+					U dětí hypersenzitivních potřebujeme zvýšit odolnost v dutině ústní.
+					Nikdy však nezačínáme přímo v ústech, ale na těle. Nejprve provádíme
+					tlakové masáže po těle, začít od nejméně citlivého místa na a
+					pokračujeme až k dlaním. Využít můžeme tlak vlastních rukou, nebo
+					vibrace z rotavibrátoru. Pokud dítě zvládne tlak na dlaních, můžeme se
+					pomalu přesunout k tvářím, čelisti a až poté rtům a dutině ústní!
+				</Text>
+			</Chapter>
 
-		<Chapter {...metadata.activities[0]}>
-			<Text>
-				U dětí hypersenzitivních potřebujeme zvýšit odolnost v dutině ústní.
-				Nikdy však nezačínáme přímo v ústech, ale na těle. Nejprve provádíme
-				tlakové masáže po těle, začít od nejméně citlivého místa na a
-				pokračujeme až k dlaním. Využít můžeme tlak vlastních rukou, nebo
-				vibrace z rotavibrátoru. Pokud dítě zvládne tlak na dlaních, můžeme se
-				pomalu přesunout k tvářím, čelisti a až poté rtům a dutině ústní!
-			</Text>
-		</Chapter>
+			<Chapter {...metadata.activities[1]}>
+				<Text>
+					Využít můžeme nanuky vyrobené z různých druhů sirupu, nebo zmraženého
+					ovoce. Dítě necháme jejich vlastním tempem ochutnat, osahat, očichat
+					vše co jsme mu nachystali.
+				</Text>
+			</Chapter>
 
-		<Chapter {...metadata.activities[1]}>
-			<Text>
-				Využít můžeme nanuky vyrobené z různých druhů sirupu, nebo zmraženého
-				ovoce. Dítě necháme jejich vlastním tempem ochutnat, osahat, očichat vše
-				co jsme mu nachystali.
-			</Text>
-		</Chapter>
+			<Chapter {...metadata.activities[2]}>
+				<Text>
+					Podávejte jídlo, které musí dítě žvýkat. Mrkev, křupky, kousky ovoce
+					(můžete ho vytvarovat do zábavného tvaru) žvýkačky. Výběr jídla řiďte
+					podle dietních restrikcí, které dítě má a podle úrovně oromotorických
+					schopností.
+				</Text>
+			</Chapter>
 
-		<Chapter {...metadata.activities[2]}>
-			<Text>
-				Podávejte jídlo, které musí dítě žvýkat. Mrkev, křupky, kousky ovoce
-				(můžete ho vytvarovat do zábavného tvaru) žvýkačky. Výběr jídla řiďte
-				podle dietních restrikcí, které dítě má a podle úrovně oromotorických
-				schopností.
-			</Text>
-		</Chapter>
-
-		<Chapter {...metadata.activities[3]}>
-			<Text>
-				Kousátek je na trhu spousty, před jejich koupí se ale určitě poraďte s
-				odborníkem (logoped, poradknyě v obchodu s kousátky. Kousátka jsou
-				vhodné pro potlačení silného tonusu v těle, odnaučení cucání prstů,
-				zvýšení tolerance předmětů v dutině ústní. Nebo naopak pro děti, které
-				kousat potřebují a koušou různé nejedlé předměty (sklo, dřevo, oblečení,
-				kameny). Kousátka jsou rozdělené do tří druhů, právě podle specifické
-				potřeby.
-			</Text>
+			<Chapter {...metadata.activities[3]}>
+				<Text>
+					Kousátek je na trhu spousty, před jejich koupí se ale určitě poraďte s
+					odborníkem (logoped, poradknyě v obchodu s kousátky. Kousátka jsou
+					vhodné pro potlačení silného tonusu v těle, odnaučení cucání prstů,
+					zvýšení tolerance předmětů v dutině ústní. Nebo naopak pro děti, které
+					kousat potřebují a koušou různé nejedlé předměty (sklo, dřevo,
+					oblečení, kameny). Kousátka jsou rozdělené do tří druhů, právě podle
+					specifické potřeby.
+				</Text>
+			</Chapter>
 		</Chapter>
 	</Chapter>
 );

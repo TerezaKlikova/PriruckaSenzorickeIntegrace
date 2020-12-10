@@ -156,122 +156,124 @@ const Content: FC = () => (
 				vnitřním uchu mělo možnost, při svém deficitu, se rozvíjet tak, jak
 				potřebuje.
 			</Text>
-		</Chapter>
 
-		<Chapter {...metadata.activities[0]}>
-			<Text>
-				Houpat se mohou děti klasiky na houpačce, ale pokud na ni nemáte místo,
-				houpat můžete dítě i v dece, nebo na zavěšeném laně. Skvělé jsou
-				houpačky ploché rovné, na kterých si můžou stimulovat hmat (přejíždí
-				rukama po zemi). Dále se dají využít jako nácvik koordinace pohybu, dítě
-				se houpe v houpačce (leží na bříšku) a zároveň si hází balon, nebo kruhy
-				na určené místo.
-			</Text>
-			<Text>
-				Pokud nemůžete vrtat do stropu, dají se využít stojany na zavěšení
-				houpačky.
-			</Text>
-			<Gallery>
-				<Img {...GALLERY['chapter-2-houpani1']} />
-				<Img {...GALLERY['chapter-2-houpani2']} />
-			</Gallery>
-		</Chapter>
+			<Chapter {...metadata.activities[0]}>
+				<Text>
+					Houpat se mohou děti klasiky na houpačce, ale pokud na ni nemáte
+					místo, houpat můžete dítě i v dece, nebo na zavěšeném laně. Skvělé
+					jsou houpačky ploché rovné, na kterých si můžou stimulovat hmat
+					(přejíždí rukama po zemi). Dále se dají využít jako nácvik koordinace
+					pohybu, dítě se houpe v houpačce (leží na bříšku) a zároveň si hází
+					balon, nebo kruhy na určené místo.
+				</Text>
+				<Text>
+					Pokud nemůžete vrtat do stropu, dají se využít stojany na zavěšení
+					houpačky.
+				</Text>
+				<Gallery>
+					<Img {...GALLERY['chapter-2-houpani1']} />
+					<Img {...GALLERY['chapter-2-houpani2']} />
+				</Gallery>
+			</Chapter>
 
-		<Chapter {...metadata.activities[1]}>
-			<Text>
-				Most můžete využít jak na houpání, tak při otoční, jako malu průlezku.
-				Trénujete tím rovnovážné cítění, hrubou motoriku a vestibulární systém.
-			</Text>
-			<Gallery>
-				<Img {...GALLERY['chapter-2-most1']} />
-			</Gallery>
-		</Chapter>
+			<Chapter {...metadata.activities[1]}>
+				<Text>
+					Most můžete využít jak na houpání, tak při otoční, jako malu průlezku.
+					Trénujete tím rovnovážné cítění, hrubou motoriku a vestibulární
+					systém.
+				</Text>
+				<Gallery>
+					<Img {...GALLERY['chapter-2-most1']} />
+				</Gallery>
+			</Chapter>
 
-		<Chapter {...metadata.activities[2]}>
-			<Text>
-				Určeno pro děti s vyvinutější motorickými schopnostmi. Prkno se skvělé k
-				vývoji rovnováhy, tonusu těla, stability, hrubé motoriky.
-			</Text>
-			<Gallery>
-				<Img {...GALLERY['chapter-2-prkno1']} />
-			</Gallery>
-		</Chapter>
+			<Chapter {...metadata.activities[2]}>
+				<Text>
+					Určeno pro děti s vyvinutější motorickými schopnostmi. Prkno se skvělé
+					k vývoji rovnováhy, tonusu těla, stability, hrubé motoriky.
+				</Text>
+				<Gallery>
+					<Img {...GALLERY['chapter-2-prkno1']} />
+				</Gallery>
+			</Chapter>
 
-		<Chapter {...metadata.activities[3]}>
-			<Text>
-				Dalším důležitým pohybem pro rozvoj vestibulárního vnímání je skákání.
-				Vhodnou a dostupnou pomůckou je gymnastický míč, nebo trampolína. Na
-				balonu je dobré, aby dítě skákalo ve stoje, za pomoci držení rodiče.
-				Balon bud postavte do rohu místnosti, nebo o hranu pohovku, do které
-				poté může dítě i padat. Dobré je skákání doplnit písničkou, nebo
-				říkankou. Dále může skákat do všech směrů, pokud už zvládá skákat samo,
-				nechme ho.
-			</Text>
-			<Text>
-				Pokud nemáte trampolínu, využít můžete i na sebe poskládané polštáře,
-				nebo molitany.
-			</Text>
-		</Chapter>
+			<Chapter {...metadata.activities[3]}>
+				<Text>
+					Dalším důležitým pohybem pro rozvoj vestibulárního vnímání je skákání.
+					Vhodnou a dostupnou pomůckou je gymnastický míč, nebo trampolína. Na
+					balonu je dobré, aby dítě skákalo ve stoje, za pomoci držení rodiče.
+					Balon bud postavte do rohu místnosti, nebo o hranu pohovku, do které
+					poté může dítě i padat. Dobré je skákání doplnit písničkou, nebo
+					říkankou. Dále může skákat do všech směrů, pokud už zvládá skákat
+					samo, nechme ho.
+				</Text>
+				<Text>
+					Pokud nemáte trampolínu, využít můžete i na sebe poskládané polštáře,
+					nebo molitany.
+				</Text>
+			</Chapter>
 
-		<Chapter {...metadata.activities[4]}>
-			<Text>
-				Pokud jste si všimli, že se vaše dítě rádo houpe hlavou dolů, nechte ho.
-				Doplňuje si tak vestibulární input, který mu chybí. Houpat se může samo,
-				položením na postel, nebo ho můžete vzít za nohy a houpat. Provádějte
-				tuto aktivtu, ale pouze po krátkou dobu, aby se nepřekrvila hlava.
-			</Text>
-		</Chapter>
+			<Chapter {...metadata.activities[4]}>
+				<Text>
+					Pokud jste si všimli, že se vaše dítě rádo houpe hlavou dolů, nechte
+					ho. Doplňuje si tak vestibulární input, který mu chybí. Houpat se může
+					samo, položením na postel, nebo ho můžete vzít za nohy a houpat.
+					Provádějte tuto aktivtu, ale pouze po krátkou dobu, aby se nepřekrvila
+					hlava.
+				</Text>
+			</Chapter>
 
-		<Chapter {...metadata.activities[5]}>
-			<Text>
-				Využít můžete skateboardu, nebo i stěhovací desku na kolečkách. Výhoda
-				je, když jde přivázat na provázek. Pro menší a méně obratné děti, které
-				se neumí odrážet, je tohle možnost, jak se mohou povozit. Lehnout si
-				může dítě na břicho, nebo sedět. Připravit pro ně můžete překážkovou
-				dráhu, nebo vozit k odměně, či to využít jak místo k dalším činnostem.
-				Některým dětem se při předklonu hlavy lépe pracuje, jsou vnímavější
-				(zapojí více vestibulární vnímání), můžete jim nachystat puzzle na
-				skládání, malování, nebo jiné činnosti.
-			</Text>
-			<Gallery>
-				<Img {...GALLERY['chapter-2-deska1']} />
-				<Img {...GALLERY['chapter-2-deska2']} />
-			</Gallery>
-			<Text>
-				Inspiraci pro další aktivity s deskou naleznete{' '}
-				<Link
-					href="https://www.mymundaneandmiraculouslife.com/scooter-board-sensory-activities/"
-					target="_blank"
-					rel="noreferrer"
-					underline
-				>
-					zde
-				</Link>
-				.
-			</Text>
-		</Chapter>
+			<Chapter {...metadata.activities[5]}>
+				<Text>
+					Využít můžete skateboardu, nebo i stěhovací desku na kolečkách. Výhoda
+					je, když jde přivázat na provázek. Pro menší a méně obratné děti,
+					které se neumí odrážet, je tohle možnost, jak se mohou povozit.
+					Lehnout si může dítě na břicho, nebo sedět. Připravit pro ně můžete
+					překážkovou dráhu, nebo vozit k odměně, či to využít jak místo k
+					dalším činnostem. Některým dětem se při předklonu hlavy lépe pracuje,
+					jsou vnímavější (zapojí více vestibulární vnímání), můžete jim
+					nachystat puzzle na skládání, malování, nebo jiné činnosti.
+				</Text>
+				<Gallery>
+					<Img {...GALLERY['chapter-2-deska1']} />
+					<Img {...GALLERY['chapter-2-deska2']} />
+				</Gallery>
+				<Text>
+					Inspiraci pro další aktivity s deskou naleznete{' '}
+					<Link
+						href="https://www.mymundaneandmiraculouslife.com/scooter-board-sensory-activities/"
+						target="_blank"
+						rel="noreferrer"
+						underline
+					>
+						zde
+					</Link>
+					.
+				</Text>
+			</Chapter>
 
-		<Chapter {...metadata.activities[6]}>
-			<Text>
-				Stačí pořídit obyčejný twister a dítě se otáčí samo, nebo ho chytíte za
-				ruce a otáčíte ho vy.
-			</Text>
-		</Chapter>
+			<Chapter {...metadata.activities[6]}>
+				<Text>
+					Stačí pořídit obyčejný twister a dítě se otáčí samo, nebo ho chytíte
+					za ruce a otáčíte ho vy.
+				</Text>
+			</Chapter>
 
-		<Chapter {...metadata.activities[7]}>
-			<Text>
-				Pokud jste si všimli, že dítě rádo leze na nábytek, stoly a celkově
-				vyšší prostory, uzpůsobte mu prostředí tak, aby měl potřebu nasycenou,
-				ale byl v bezpečí. Využít můžete žebřiny, lezeckou stěnu, poschoďovou
-				postel.
-			</Text>
-			<Text>
-				Příklad instalace žebřin v jedné domácnosti: Zde jsou žebřiny spojene i
-				s houpačkou, lanem, žebřiny jsou předsunuty.
-			</Text>
-			<Gallery>
-				<Img {...GALLERY['chapter-2-lezeni1']} />
-			</Gallery>
+			<Chapter {...metadata.activities[7]}>
+				<Text>
+					Pokud jste si všimli, že dítě rádo leze na nábytek, stoly a celkově
+					vyšší prostory, uzpůsobte mu prostředí tak, aby měl potřebu nasycenou,
+					ale byl v bezpečí. Využít můžete žebřiny, lezeckou stěnu, poschoďovou
+					postel.
+				</Text>
+				<Text>
+					Příklad instalace žebřin v jedné domácnosti: Zde jsou žebřiny spojene
+					i s houpačkou, lanem, žebřiny jsou předsunuty.
+				</Text>
+				<Gallery>
+					<Img {...GALLERY['chapter-2-lezeni1']} />
+				</Gallery>
+			</Chapter>
 		</Chapter>
 	</Chapter>
 );
