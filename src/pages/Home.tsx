@@ -76,7 +76,7 @@ const Home: FC = () => (
 				}
 			`}
 		>
-			Aktualizovanou online verzi této příručky můžete najít
+			Aktualizovanou online verzi této příručky můžete najít{' '}
 			<Link
 				href="https://terezaklikova.github.io/PriruckaSenzorickeIntegrace/"
 				underline
