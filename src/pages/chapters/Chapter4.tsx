@@ -49,18 +49,10 @@ const metadata = {
 
 const Content: FC = () => (
 	<Chapter variant="main" {...metadata}>
-		<Text>
-			Je důležité od narození pro taktilní stimulaci. Miminko potřebuje objetí
-			matky, utěšení, pohlazení, pomáhá nám poznat svět okolo nás, struktury
-			potravin, které jíme.
-		</Text>
-
 		<Chapter {...metadata.subchapters[0]}>
-			<Text>Můžeme poznat dítě podle toho, že:</Text>
+			<Text>Můžeme poznat tyto děti podle toho, že:</Text>
 			<UnorderedList>
-				<ListItem>
-					děti jsou extrémně přecitlivělé na různé hmatové podněty
-				</ListItem>
+				<ListItem>jsou extrémně přecitlivělé na různé hmatové podněty</ListItem>
 				<ListItem>
 					nerady se objímají, mají hrůzu z doteků, odtahují se při hrozbě
 					kontaktu
@@ -88,7 +80,7 @@ const Content: FC = () => (
 		</Chapter>
 
 		<Chapter {...metadata.subchapters[1]}>
-			<Text>Můžeme poznat dítě podle toho, že:</Text>
+			<Text>Můžeme poznat tyto děti podle toho, že:</Text>
 			<UnorderedList>
 				<ListItem>
 					mají menší citlivost na hmatové podněty, chovají se jako by necítily
@@ -105,7 +97,7 @@ const Content: FC = () => (
 		</Chapter>
 
 		<Chapter {...metadata.subchapters[2]}>
-			<Text>Můžeme poznat dítě podle toho, že:</Text>
+			<Text>Můžeme poznat tyto děti podle toho, že:</Text>
 			<UnorderedList>
 				<ListItem>neustále se dotýkají věcí a lidí</ListItem>
 				<ListItem>
@@ -124,7 +116,7 @@ const Content: FC = () => (
 		</Chapter>
 
 		<Chapter {...metadata.subchapters[3]}>
-			<Text>Můžeme poznat dítě podle toho, že:</Text>
+			<Text>Můžeme poznat tyto děti podle toho, že:</Text>
 			<UnorderedList>
 				<ListItem>
 					vypadají, jako by neměly pod kontrolou vlastní dotek
@@ -150,7 +142,7 @@ const Content: FC = () => (
 				Aktivity jsou určené pro všechny děti. Ať už je Vaše dítě
 				hyposenzitivní, nebo hypersenzitivní, podněty potřebuje. Pouze musíte
 				upravit, jakým způsobem mu aktivitu nabízíte. Pokud se štítí různých
-				povrchu, nebo má problém povrchy vůbec zaregistrovat, vnímejte jejich
+				povrchů, nebo má problém povrchy vůbec zaregistrovat, vnímejte jejich
 				reakce a podle nich se řiďte. Aktivita by měla být zábava jak pro dítě,
 				tak pro vás. Jde zejména o prožití pozitivního zážitku s hmatovým
 				vnímáním.
@@ -158,12 +150,13 @@ const Content: FC = () => (
 
 			<Chapter {...metadata.activities[0]}>
 				<Text>
-					Přírodní materiály jsou nejlepší rozvoj hmatu. Rýže, čočka, mouka,
-					cizrna a další sypké luštěniny je skvělým pomocníkem. Můžete do misek
-					dát kaminky, mušle, kaštany, lego a zahrat si loto, si vytahovat
-					předměty poslepu a hadat co jsou zač. Nebo jenom nasypat plnou mísu
-					rýže, písku, mouky a nechat je si užívat příjemného pocitu. Nádoba by
-					měla být co nejvyšší, aby ruka byla ponořena co nejvíc.
+					Přírodní materiály jsou nejlepší pro rozvoj hmatu. Rýže, čočka, mouka,
+					cizrna a další sypké luštěniny jsou skvělým pomocníkem. Můžete do
+					misek dát kaminky, mušle, kaštany, lego a zahrat si loto, nebo
+					vytahovat předměty poslepu a hadat, co jsou zač. Nebo jenom nasypat
+					plnou mísu rýže, písku, mouky a nechat je si užívat příjemného pocitu.
+					Nádoba by měla být co nejvyšší, aby ruka byla ponořena co nejlépe až
+					po lokty.
 				</Text>
 				<Gallery>
 					<Img {...GALLERY['chapter-4-miska1']} />
@@ -177,7 +170,7 @@ const Content: FC = () => (
 					Skvělá aktivita i pro dětí s potřebou silného stisku. Nechte je míchat
 					těsto holýma rukama a zažít zkušeností s novými substancemi. Navíc
 					budou mít děti pocit, že jsou užitečné a sami jsou schopné si upéct
-					třeba sušenky.
+					,třeba sušenky.
 				</Text>
 				<Gallery>
 					<Img {...GALLERY['chapter-4-testo1']} />
@@ -203,9 +196,9 @@ const Content: FC = () => (
 				<Text>
 					Nasypte si písek na podnos, nebo do krabice, přineste kartáče,
 					hřebeny, masážní hřebeny a nechte je přehrabovat se v písku. Pro děti,
-					které se potřebují seznámit se strukturou písku nenásilnou metodou je
-					to super začátek. Pro děti, které právě chtějí nacítit strukturu
-					pomůcky nepotřebuje, nechte je prohrabovat holýma rukama, přihodit
+					které se potřebují seznámit se strukturou písku nenásilnou metodou, je
+					to skvělý začátek. Pro děti, které právě chtějí nacítit strukturu,
+					pomůcky nepotřebují, nechte je se prohrabovat holýma rukama, přihodit
 					můžete i drobné předměty. Jedlá alternativa je krupice, anebo
 					rozdrcené kukuřičné lupínky.
 				</Text>
@@ -290,7 +283,7 @@ const Content: FC = () => (
 					třásněmi nebo s gelovými kuličkami. Koupit se daji obyčejné v
 					obchodech jako je Kik, Nanu Nana nebo Tiger. Pokud má dítě zvýšenou
 					potřebu kousat, zvolte spíš čistě zdravotně nezávadné balonky, přece
-					jenom balonky z běžného obchodu, nejsou určené ke kousání.
+					jenom balonky z běžného obchodu nejsou určené ke kousání.
 				</Text>
 				<Gallery>
 					<Img {...GALLERY['chapter-4-balony1']} />
@@ -313,13 +306,13 @@ const Content: FC = () => (
 
 			<Chapter {...metadata.activities[10]}>
 				<Text>
-					Co nejvíc se snažte o pohyb s dítětem venku, pokud to jde procházejte
+					Co nejvíc se snažte o pohyb s dítětem venku, pokud to jde, procházejte
 					se naboso, nebo s bearefoot botách. Je důležité, aby děti cítily
 					přirozený tlak na pokožce nohou, stimuluje to nejen hmat, ale
-					podporuje rovnováhu chůze. Procházejte se na trávě, kamínkách, hlíně,
-					nechte dítě volně běhat po zahradě (samozřejmě v rámci bezpečnosti).
-					Když mu poskytnete trochu volnosti, podporujte tím i zdravou
-					sebedůvěru v sebe.
+					podporujete i rovnováhu chůze. Procházejte se na trávě, kamínkách,
+					hlíně, nechte dítě volně běhat po zahradě (samozřejmě v rámci
+					bezpečnosti). Když mu poskytnete trochu volnosti, podporujte tím i
+					zdravou sebedůvěru v sebe samého.
 				</Text>
 			</Chapter>
 
@@ -370,7 +363,7 @@ const Content: FC = () => (
 					Tzn. senzorický pytlík, je plastový průhledný pytel, do kterého se
 					leje gel, nebo hustý olej a různé předměty. Můžete tam dát knoflíky,
 					kuličky, plastová písmena, perle a prsty poté posouvat jednotlivé
-					předměty na příslušné místo. Rozvíjí se tak krom hmatového vnímání a
+					předměty na příslušné místo. Rozvíjí se tak krom hmatového vnímání i
 					jemná motorika. Můžete přidat i hydrogenové perle (když jsou zavřené v
 					pytlíku, není jejich toxicita problém).
 				</Text>
@@ -384,7 +377,7 @@ const Content: FC = () => (
 				<Text>
 					K rozvoji hmatového vnímání dolních končetin je vhodný taktilní
 					chodník. Dá se buď koupit, anebo si ho můžete vyrobit sami z
-					přírodních materiálu. S dětmi hyposenzitivními po nich chodte boso,
+					přírodních materiálu. S dětmi hyposenzitivními po nich choďte boso,
 					děti citlivější mohou mít zpočátku ponožky na zmírnění tlaku.
 				</Text>
 				<Text>
@@ -419,7 +412,7 @@ const Content: FC = () => (
 					končetin. Můžete si ji koupit, ale na trhu jsou zatím pouze velmi
 					drahé varianty, které si šikovnejší lidé dokáží vyrobit sami. Na desku
 					můžete dát různé materiály, důležité je,aby byla textura rozdílná.
-					Poté necháme dítě objevovat a zkoumat různí textury.
+					Poté necháme dítě objevovat a zkoumat různé textury.
 				</Text>
 				<Gallery>
 					<Img {...GALLERY['chapter-4-tabule1']} />

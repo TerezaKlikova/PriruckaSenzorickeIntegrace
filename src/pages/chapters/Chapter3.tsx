@@ -93,11 +93,11 @@ const Content: FC = () => (
 
 		<Chapter {...metadata.activities[0]}>
 			<Text>
-				Deky plněné sypkým materiálem, jsou prošvané na tak aby při přikrytí
-				dítěte objala celé tělo. Dají se koupit přímo hotové, ušité podle
-				velikosti a hmotnosti vašeho dítěte, nebo těžší peřiny. Vhodný pro dětí,
-				které mají problém s usínáním, jsou neklidné, potřebují cítit váhu na
-				svém těle. Polštář je vhodný pro dětí , které mají problém
+				Deky plněné sypkým materiálem, jsou prošvané tak aby při přikrytí dítěte
+				objala celé tělo. Dají se koupit přímo hotové, ušité podle velikosti a
+				hmotnosti vašeho dítěte, nebo mužete využít těžší peřiny. Vhodný pro
+				dětí, které mají problém s usínáním, jsou neklidné, potřebují cítit váhu
+				na svém těle. Polštář je vhodný pro dětí, které mají problém
 				&ldquo;sedět&ldquo;, vrtí se na židli a neumí se soustředit na úkoly.
 				Vyrábí se v mnoha podobách (delfín, pejsek…).
 			</Text>
@@ -127,8 +127,8 @@ const Content: FC = () => (
 				toho můžete udělat hru na přetahovanou. Pokud nemá dítě partnera na
 				přetahování, můžete lano zavázat za nohu stolu. Aby mu lano neklouzalo,
 				můžete mu na něm udělat uzlíky a zkombinovat aktivitu s pojízdnou deskou
-				(zároveň stimulace vestibulárního vnímání). Lano můžete dát na zem, aby
-				po něm dítě chodilo, nebo ho přeskakovalo.
+				(zároveň stimulace vestibulárního vnímání). Lano můžete také dát na zem,
+				aby po něm dítě chodilo, nebo ho přeskakovalo.
 			</Text>
 			<Gallery>
 				<Img {...GALLERY['chapter-3-lano1']} />
@@ -155,11 +155,11 @@ const Content: FC = () => (
 
 		<Chapter {...metadata.activities[5]}>
 			<Text>
-				Menší děti můžeme posadit na sušičku, aby cítili vibrace. Nebo použít
+				Menší děti můžeme posadit na sušičku, aby cítily vibrace. Nebo použít
 				elektrický kartáček a přejíždět po těla. Pokud má vaše dítě problémy v
-				oblasti oromotoriky (oslabené svaltvo úst) můžete vibrace použít u tam.
-				U citlivějších dětí začínejte vždy od dlaní a pak až použijte vibrace do
-				úst, aby si na vibrace zvyklo. Využít můžete jak elektrických kartáčků,
+				oblasti oromotoriky (oslabené svaltvo úst) můžete vibrace použít i tam.
+				U citlivějších dětí začínejte vždy od dlaní a pak až využijte vibrace v
+				ústech, aby si na to zvyklo. Využít můžete jak elektrických kartáčků,
 				tak speciálních logovibrátorů. Dítě si tak lépe uvědomí jednotlivé
 				doteky, jak na končetinách, tak v ústech.
 			</Text>

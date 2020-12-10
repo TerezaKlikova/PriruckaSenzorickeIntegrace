@@ -1,6 +1,6 @@
 /** @jsxImportSource @emotion/core */
 import { css } from '@emotion/core';
-import React, { FC, useState } from 'react';
+import React, { FC, SVGProps, useState } from 'react';
 
 import { Box, Flex } from 'components/Styled';
 import Wrapper from 'components/Wrapper';
@@ -17,6 +17,7 @@ type Props = {
 		onClick?: () => void;
 		href?: string;
 		title: string;
+		icon?: FC<SVGProps<SVGSVGElement>>;
 	}[];
 };
 
@@ -57,7 +58,7 @@ const Header: FC<Props> = ({ items }) => {
 							}
 						`}
 					>
-						<Box mr={2}>
+						<Box mr={3} flexShrink={0}>
 							<Icon height={30} />
 						</Box>
 						Příručka senzorické integrace
@@ -109,18 +110,27 @@ const Header: FC<Props> = ({ items }) => {
 						`}
 					>
 						{items.map(i => (
-							<Flex key={i.title} as="li" py={3}>
+							<Flex key={i.title} as="li" py={3} mr={2}>
 								{i.href ? (
 									<Link
 										p={2}
+										mr={2}
 										href={`#${i.href}`}
 										color="white"
+										fontWeight={i.icon ? 'bold' : undefined}
 										css={css`
+											display: flex;
+											align-items: center;
 											&:focus {
 												${InvertFocusStyle}
 											}
 										`}
 									>
+										{i.icon && (
+											<Box mr={2}>
+												<i.icon width={24} />
+											</Box>
+										)}
 										{i.title}
 									</Link>
 								) : (
@@ -128,12 +138,20 @@ const Header: FC<Props> = ({ items }) => {
 										p={2}
 										onClick={i.onClick}
 										color="white"
+										fontWeight={i.icon ? 'bold' : undefined}
 										css={css`
+											display: flex;
+											align-items: center;
 											&:focus {
 												${InvertFocusStyle}
 											}
 										`}
 									>
+										{i.icon && (
+											<Box mr={2}>
+												<i.icon width={24} />
+											</Box>
+										)}
 										{i.title}
 									</Button>
 								)}

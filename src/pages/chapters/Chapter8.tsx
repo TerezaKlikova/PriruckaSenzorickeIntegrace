@@ -35,7 +35,7 @@ const Content: FC = () => (
 				<ListItem>každá chuť moc ostrá, nebo sladká</ListItem>
 				<ListItem>
 					v jídle jsou velmi vybíraví a jí velmi málo - občas se může dostat až
-					k poruše příjmu potravy{' '}
+					k poruše příjmu potravy
 				</ListItem>
 				<ListItem>
 					mají posunutý dávivý reflex, v souvislosti s jídlem často zvrací, nebo

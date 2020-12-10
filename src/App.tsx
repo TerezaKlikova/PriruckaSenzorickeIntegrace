@@ -21,6 +21,8 @@ import Chapter8 from 'pages/chapters/Chapter8';
 
 import { GlobalStyles, ThemeProvider } from 'theme';
 
+import { ReactComponent as DownloadIcon } from 'assets/black-book.svg';
+
 const CHAPTERS: ChapterType[] = [
 	Chapter1,
 	Chapter2,
@@ -40,9 +42,9 @@ function App() {
 				<PrintTitlePage />
 				<Header
 					items={[
-						{ title: 'Stáhnout PDF', onClick: print },
 						{ title: 'Užitečné odkazy', href: 'uzitecne-odkazy' },
 						{ title: 'Použité zdroje', href: 'pouzite-zdroje' },
+						{ title: 'Stáhnout PDF', onClick: print, icon: DownloadIcon },
 					]}
 				/>
 				<Wrapper>

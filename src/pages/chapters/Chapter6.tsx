@@ -33,7 +33,7 @@ const metadata = {
 const Content: FC = () => (
 	<Chapter variant="main" {...metadata}>
 		<Chapter {...metadata.subchapters[0]}>
-			<Text>Můžeme poznat dítě podle toho, že:</Text>
+			<Text>Můžeme poznat tyto děti podle toho, že:</Text>
 			<UnorderedList>
 				<ListItem>tzv. slyšení neslyšitelného</ListItem>
 				<ListItem>
@@ -45,11 +45,12 @@ const Content: FC = () => (
 					diskomfort
 				</ListItem>
 				<ListItem>
-					velmi často zakrývají uši, bojí se věcí, jež vyluzují hlasité zvuky
+					velmi často si zakrývají uši, bojí se věcí, jež vyluzují hlasité zvuky
 					(bouřka, davy, MHD)
 				</ListItem>
 				<ListItem>
-					Ve snaze přehlušit vnější zvukové podněty sám vydává stereotypní zvuky
+					Ve snaze přehlušit vnější zvukové podněty sami vydávají stereotypní
+					zvuky
 				</ListItem>
 			</UnorderedList>
 		</Chapter>
@@ -62,8 +63,8 @@ const Content: FC = () => (
 				</ListItem>
 				<ListItem>libuje si ve zvuku sirén a hlasité muzice</ListItem>
 				<ListItem>
-					často se sami snaží sluch stimulovat – vokalizují, bouchají dveřmi,
-					ťukají do předmětů
+					často se sám snaží sluch stimulovat – vokalizuje, bouchá dveřmi, ťuká
+					do předmětů
 				</ListItem>
 				<ListItem>dělá mu dobře doprava, davy, také má rád vibrace</ListItem>
 				<ListItem>
@@ -71,7 +72,7 @@ const Content: FC = () => (
 					rytmikou
 				</ListItem>
 				<ListItem>
-					mívají obtíže v oblastí artikulace a samotné funkční komunikaci
+					mívá obtíže v oblastí artikulace a samotné funkční komunikaci
 				</ListItem>
 				<ListItem>
 					komunikační schopností se lepší po zkušenosti s intenzivním pohybem
@@ -89,10 +90,10 @@ const Content: FC = () => (
 				zvuky. Vhodné jsou také bubínky (ne elektrické), kde můžeme spojit i
 				regulaci síly a procvičení rytmiky. Vytvořit si můžete i vlastni
 				zvonkohru z příborů a vařečky, opět zde můžeme spojit regulaci síly v
-				ůhodu, jemnou motoriku a koordinaci oko - ruka.
+				úhodu, jemnou motoriku a koordinaci oko - ruka.
 			</Text>
 			<Text>
-				Taktéž můžete využít dechové nástroje (fletny, foukací harmonika …)
+				Taktéž můžete využít dechové nástroje (flétny, foukací harmonika …)
 				upevňuje svalstvo úst a správný výdechový proud.
 			</Text>
 		</Chapter>

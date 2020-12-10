@@ -17,15 +17,23 @@ const Home: FC = () => (
 		printTitle="Úvod"
 	>
 		<Box>
-			<CoverImage
+			<Box
+				textAlign="center"
+				width={['100%', 300]}
 				css={css`
 					float: right;
-					width: 300px;
 					@media print {
 						display: none;
 					}
 				`}
-			/>
+			>
+				<CoverImage
+					css={css`
+						display: inline;
+						max-width: 300px;
+					`}
+				/>
+			</Box>
 			<Text>
 				Tato příručka je věnována pečujícím dětí a osobám s autismem, poruchami
 				pozornosti a učení, či jinými obtížemi se smyslovým zpracováním. Tak,
@@ -58,6 +66,22 @@ const Home: FC = () => (
 			email{' '}
 			<Link href="mailto:terkaklika@gmail.com" underline noLink>
 				terkaklika@gmail.com
+			</Link>
+			.
+		</Text>
+		<Text
+			css={css`
+				@media not print {
+					display: none;
+				}
+			`}
+		>
+			Aktualizovanou online verzi této příručky můžete najít
+			<Link
+				href="https://terezaklikova.github.io/PriruckaSenzorickeIntegrace/"
+				underline
+			>
+				zde
 			</Link>
 			.
 		</Text>

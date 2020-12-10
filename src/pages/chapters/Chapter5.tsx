@@ -84,7 +84,7 @@ const Content: FC = () => (
 			<Text>Můžeme poznat dítě podle toho, že:</Text>
 			<UnorderedList>
 				<ListItem>
-					fascinuje ho jasné světelné jevy – odlesky, blikající světélka, lávové
+					fascinují ho jasné světelné jevy – odlesky, blikající světélka, lávové
 					lampy, titulky běžící na televizi
 				</ListItem>
 				<ListItem>
@@ -161,7 +161,7 @@ const Content: FC = () => (
 
 		<Chapter {...metadata.activities[4]}>
 			<Text>
-				Můžete si samu z kousku větvičky, provázku a magnetu vyrobit prut. Stačí
+				Můžete si sami z kousku větvičky, provázku a magnetu vyrobit prut. Stačí
 				jenom nachystat papírové, nebo látkové rybičky s magnety. Cílem je plná
 				zraková kontrola a motoricka koordinace, aby dítě rybičku chytilo.
 			</Text>
@@ -190,7 +190,7 @@ const Content: FC = () => (
 		<Chapter {...metadata.activities[6]}>
 			<Text>
 				Navigujeme dítě ve známém prostředí, ono mezitím ukládá věci na místo,
-				dle pokynu. Procvičujete sluhcovou pamět, vnímání a diferenciaci hlásek.
+				dle pokynu. Procvičujete sluchovou pamět, vnímání a diferenciaci hlásek.
 			</Text>
 		</Chapter>
 	</Chapter>

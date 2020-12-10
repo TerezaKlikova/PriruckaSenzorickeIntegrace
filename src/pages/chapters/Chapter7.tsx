@@ -40,7 +40,7 @@ const Content: FC = () => (
 		</Chapter>
 
 		<Chapter {...metadata.subchapters[1]}>
-			<Text>Můžeme poznat dítě podle toho, že:</Text>
+			<Text>Můžeme poznat tyto děti podle toho, že:</Text>
 			<UnorderedList>
 				<ListItem>
 					u dětí, které vyhledávají intenzivně pachy, jde někdy až o kompulzivní
