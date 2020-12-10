@@ -196,7 +196,7 @@ const Content: FC = () => (
 		<Chapter {...metadata.activities[2]}>
 			<Text>
 				Určeno pro dětí s vyvinutější motorickými schopnostmi. Prkno se skvělé k
-				vývoji rovnováhy, tonusu těla, stability, hrubé motoriky aj.
+				vývoji rovnováhy, tonusu těla, stability, hrubé motoriky.
 			</Text>
 			<Gallery>
 				<Img src={prkno1} />

@@ -332,7 +332,7 @@ const Content: FC = () => (
 					škrobu a můžete si ho vyrobit i sami.
 				</Text>
 				<Text>
-					<Text as="span" fontWeight="bold">
+					<Text as="span" fontStyle="italic">
 						Návod:
 					</Text>{' '}
 					Mouka - 1 hrnek, Sůl - 1/2 hrnku, Voda- 1/2 hrnku, Potravinářské
@@ -340,7 +340,7 @@ const Content: FC = () => (
 					nádobě.
 				</Text>
 				<Text>
-					<Text as="span" fontWeight="bold">
+					<Text as="span" fontStyle="italic">
 						Play foam
 					</Text>{' '}
 					je speciální hmota tvořena malými polystyrenovými kuličkami a lepivou

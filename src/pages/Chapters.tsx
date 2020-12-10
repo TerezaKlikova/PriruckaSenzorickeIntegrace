@@ -77,7 +77,7 @@ const Chapters: FC<Props> = ({ children }) => {
 			<Box
 				mr={4}
 				display={['none', 'block']}
-				maxWidth="40%"
+				width={350}
 				flexShrink={0}
 				css={css`
 					@media print {

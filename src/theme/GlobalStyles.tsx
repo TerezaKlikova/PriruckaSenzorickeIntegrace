@@ -63,6 +63,14 @@ const GlobalStyles = () => (
 			@page :right {
 				margin-right: 15mm;
 			}
+
+			@media print {
+				[href]::after {
+					content: ' [' attr(href) ']';
+					color: ${theme.colors.text};
+					font-size: ${theme.fontSizes.sm}px;
+				}
+			}
 		`}
 	/>
 );

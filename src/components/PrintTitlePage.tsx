@@ -12,16 +12,18 @@ const PrintTitlePage: FC = () => (
 				display: none;
 			}
 			page-break-after: always;
+			background: url(https://cataas.com/cat?width=592&height=840);
+			background-size: cover;
 		`}
 	>
-		<Text fontSize={42} color="primary" lineHeight={1.1} mb={2} mt={330}>
+		<Text fontSize={42} color="primary" lineHeight={1.1} mb={2} pt={330}>
 			Příručka senzorické integrace
 		</Text>
 		<Text fontStyle="italic" height="100%">
 			Praktická příručka k uvedení do teorie a praxe problematiky senzorické
 			integrace
 		</Text>
-		<Text color="primary" fontWeight="bold" mt={176}>
+		<Text color="primary" fontWeight="bold" pt={160}>
 			Bc. Tereza Kliková
 		</Text>
 	</Box>
