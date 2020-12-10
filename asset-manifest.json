@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/PriruckaSenzorickeIntegrace/static/css/main.6ca35db5.chunk.css",
-    "main.js": "/PriruckaSenzorickeIntegrace/static/js/main.7807602b.chunk.js",
-    "main.js.map": "/PriruckaSenzorickeIntegrace/static/js/main.7807602b.chunk.js.map",
+    "main.js": "/PriruckaSenzorickeIntegrace/static/js/main.01939c40.chunk.js",
+    "main.js.map": "/PriruckaSenzorickeIntegrace/static/js/main.01939c40.chunk.js.map",
     "runtime-main.js": "/PriruckaSenzorickeIntegrace/static/js/runtime-main.931aff4f.js",
     "runtime-main.js.map": "/PriruckaSenzorickeIntegrace/static/js/runtime-main.931aff4f.js.map",
     "static/css/2.8f976517.chunk.css": "/PriruckaSenzorickeIntegrace/static/css/2.8f976517.chunk.css",
@@ -23,7 +23,7 @@
     "static/media/chodnik1.48e5602f.jpg": "/PriruckaSenzorickeIntegrace/static/media/chodnik1.48e5602f.jpg",
     "static/media/chodnik2.62561085.jpg": "/PriruckaSenzorickeIntegrace/static/media/chodnik2.62561085.jpg",
     "static/media/chodnik3.97fbf39a.jpg": "/PriruckaSenzorickeIntegrace/static/media/chodnik3.97fbf39a.jpg",
-    "static/media/cover.b186afad.svg": "/PriruckaSenzorickeIntegrace/static/media/cover.b186afad.svg",
+    "static/media/cover.0b5fa035.svg": "/PriruckaSenzorickeIntegrace/static/media/cover.0b5fa035.svg",
     "static/media/deska1.1b845756.png": "/PriruckaSenzorickeIntegrace/static/media/deska1.1b845756.png",
     "static/media/deska2.ce7c88ff.png": "/PriruckaSenzorickeIntegrace/static/media/deska2.ce7c88ff.png",
     "static/media/duny1.1b77abb7.jpg": "/PriruckaSenzorickeIntegrace/static/media/duny1.1b77abb7.jpg",
@@ -80,6 +80,6 @@
     "static/css/2.8f976517.chunk.css",
     "static/js/2.9f77d1e5.chunk.js",
     "static/css/main.6ca35db5.chunk.css",
-    "static/js/main.7807602b.chunk.js"
+    "static/js/main.01939c40.chunk.js"
   ]
 }
