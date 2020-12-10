@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/PriruckaSenzorickeIntegrace/static/css/main.6ca35db5.chunk.css",
-    "main.js": "/PriruckaSenzorickeIntegrace/static/js/main.67651a85.chunk.js",
-    "main.js.map": "/PriruckaSenzorickeIntegrace/static/js/main.67651a85.chunk.js.map",
+    "main.js": "/PriruckaSenzorickeIntegrace/static/js/main.7dcb8c90.chunk.js",
+    "main.js.map": "/PriruckaSenzorickeIntegrace/static/js/main.7dcb8c90.chunk.js.map",
     "runtime-main.js": "/PriruckaSenzorickeIntegrace/static/js/runtime-main.931aff4f.js",
     "runtime-main.js.map": "/PriruckaSenzorickeIntegrace/static/js/runtime-main.931aff4f.js.map",
     "static/css/2.8f976517.chunk.css": "/PriruckaSenzorickeIntegrace/static/css/2.8f976517.chunk.css",
@@ -18,6 +18,7 @@
     "static/media/balonky1.049fd28f.png": "/PriruckaSenzorickeIntegrace/static/media/balonky1.049fd28f.png",
     "static/media/balonky2.72eff366.jpg": "/PriruckaSenzorickeIntegrace/static/media/balonky2.72eff366.jpg",
     "static/media/balony1.007efcaa.jpg": "/PriruckaSenzorickeIntegrace/static/media/balony1.007efcaa.jpg",
+    "static/media/black-book.f5091200.svg": "/PriruckaSenzorickeIntegrace/static/media/black-book.f5091200.svg",
     "static/media/brain.f9eb8429.svg": "/PriruckaSenzorickeIntegrace/static/media/brain.f9eb8429.svg",
     "static/media/chodnik1.48e5602f.jpg": "/PriruckaSenzorickeIntegrace/static/media/chodnik1.48e5602f.jpg",
     "static/media/chodnik2.62561085.jpg": "/PriruckaSenzorickeIntegrace/static/media/chodnik2.62561085.jpg",
@@ -79,6 +80,6 @@
     "static/css/2.8f976517.chunk.css",
     "static/js/2.9f77d1e5.chunk.js",
     "static/css/main.6ca35db5.chunk.css",
-    "static/js/main.67651a85.chunk.js"
+    "static/js/main.7dcb8c90.chunk.js"
   ]
 }
