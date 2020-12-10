@@ -32,11 +32,11 @@ const HomeChapters: FC<Props> = ({ children }) => (
 					bottom={0}
 					href={`#${c.id}`}
 					bg={c.color}
+					color="white"
 				>
 					<Flex px={4} py={3} flexDirection="column" maxHeight="100%">
 						<Box as={c.icon} flex={1} minWidth={0} />
 						<Text
-							color="white"
 							fontSize="xl"
 							fontWeight="bold"
 							textAlign="center"

@@ -7,20 +7,17 @@ import Chapter from 'components/Chapter';
 import Gallery from 'components/Gallery';
 
 import { ChapterType } from 'pages/Chapters';
+import { GALLERY } from 'pages/Sources';
 
 import { MapChapters } from 'utils';
 
 import { ReactComponent as MuscleUp } from 'assets/muscle-up.svg';
-import zatezove1 from 'assets/chapter3/zatezove1.png';
-import zatezove2 from 'assets/chapter3/zatezove2.png';
-import lano1 from 'assets/chapter3/lano1.png';
-import vibrace1 from 'assets/chapter3/vibrace1.png';
 
 const metadata = {
 	id: 'proprioceptivni-vnimani',
 	icon: MuscleUp,
 	title: 'Proprioceptivní vnímání',
-	color: '#1565c0',
+	color: '#688aaf',
 	subchapters: MapChapters('proprioceptivni-vnimani', 'podkapitola', [
 		'Hypersenzitivita',
 		'Hyposenzitiva',
@@ -106,11 +103,11 @@ const Content: FC = () => (
 			</Text>
 			<Text>
 				Nikdy však zátěžovky nenechávejte na dětech položené dlouho, je to pro
-				ně dost náročné.
+				ně fyzicky náročné.
 			</Text>
 			<Gallery>
-				<Img src={zatezove1} />
-				<Img src={zatezove2} />
+				<Img {...GALLERY['chapter-3-zatezove1']} />
+				<Img {...GALLERY['chapter-3-zatezove2']} />
 			</Gallery>
 		</Chapter>
 
@@ -134,7 +131,7 @@ const Content: FC = () => (
 				po něm dítě chodilo, nebo ho přeskakovalo.
 			</Text>
 			<Gallery>
-				<Img src={lano1} />
+				<Img {...GALLERY['chapter-3-lano1']} />
 			</Gallery>
 		</Chapter>
 
@@ -167,7 +164,7 @@ const Content: FC = () => (
 				doteky, jak na končetinách, tak v ústech.
 			</Text>
 			<Gallery>
-				<Img src={vibrace1} />
+				<Img {...GALLERY['chapter-3-vibrace1']} />
 			</Gallery>
 		</Chapter>
 

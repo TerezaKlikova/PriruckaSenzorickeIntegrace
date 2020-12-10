@@ -7,24 +7,17 @@ import Gallery from 'components/Gallery';
 import { ListItem, UnorderedList } from 'components/List';
 
 import { ChapterType } from 'pages/Chapters';
+import { GALLERY } from 'pages/Sources';
 
 import { MapChapters } from 'utils';
 
 import { ReactComponent as Eye } from 'assets/semi-closed-eye.svg';
-import valec1 from 'assets/chapter5/valec1.png';
-import lampa1 from 'assets/chapter5/lampa1.jpg';
-import lampa2 from 'assets/chapter5/lampa2.jpg';
-import lampa3 from 'assets/chapter5/lampa3.jpg';
-import predmety1 from 'assets/chapter5/predmety1.jpg';
-import predmety2 from 'assets/chapter5/predmety2.jpg';
-import krabice1 from 'assets/chapter5/krabice1.png';
-import krabice2 from 'assets/chapter5/krabice2.png';
 
 const metadata = {
 	id: 'zrakove-vnimani',
 	icon: Eye,
 	title: 'Zrakové vnímání',
-	color: '#2e7d32',
+	color: '#567a59',
 	subchapters: MapChapters('zrakove-vnimani', 'podkapitola', [
 		'Hypersenzitivita',
 		'Hyposenzitiva',
@@ -113,7 +106,7 @@ const Content: FC = () => (
 				dokáží u světel zklidnit.
 			</Text>
 			<Gallery>
-				<Img src={valec1} />
+				<Img {...GALLERY['chapter-5-valec1']} />
 			</Gallery>
 		</Chapter>
 
@@ -131,9 +124,9 @@ const Content: FC = () => (
 				koupené na stránce kidtown).
 			</Text>
 			<Gallery>
-				<Img src={lampa1} />
-				<Img src={lampa2} />
-				<Img src={lampa3} />
+				<Img {...GALLERY['chapter-5-lampa1']} />
+				<Img {...GALLERY['chapter-5-lampa2']} />
+				<Img {...GALLERY['chapter-5-lampa3']} />
 			</Gallery>
 		</Chapter>
 
@@ -146,8 +139,8 @@ const Content: FC = () => (
 				pod dekou, v bunkru, nebo v uzavřené místnosti.
 			</Text>
 			<Gallery>
-				<Img src={predmety1} />
-				<Img src={predmety2} />
+				<Img {...GALLERY['chapter-5-predmety1']} />
+				<Img {...GALLERY['chapter-5-predmety2']} />
 			</Gallery>
 		</Chapter>
 
@@ -161,8 +154,8 @@ const Content: FC = () => (
 				kreslit čísla, nebo písmena.
 			</Text>
 			<Gallery>
-				<Img src={krabice1} />
-				<Img src={krabice2} />
+				<Img {...GALLERY['chapter-5-krabice1']} />
+				<Img {...GALLERY['chapter-5-krabice2']} />
 			</Gallery>
 		</Chapter>
 

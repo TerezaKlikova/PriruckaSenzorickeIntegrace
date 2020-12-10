@@ -53,10 +53,6 @@ const GlobalStyles = () => (
 				margin: 10mm;
 			}
 
-			@page :first {
-				margin: 15mm;
-			}
-
 			@page :left {
 				margin-left: 15mm;
 			}

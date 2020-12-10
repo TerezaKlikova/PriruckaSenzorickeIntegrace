@@ -5,43 +5,20 @@ import { ListItem, UnorderedList } from 'components/List';
 import Chapter from 'components/Chapter';
 import Img from 'components/Img';
 import Gallery from 'components/Gallery';
+import Link from 'components/Link';
 
 import { ChapterType } from 'pages/Chapters';
+import { GALLERY } from 'pages/Sources';
 
 import { MapChapters } from 'utils';
 
 import { ReactComponent as Hand } from 'assets/hand.svg';
-import miska1 from 'assets/chapter4/miska1.jpg';
-import miska2 from 'assets/chapter4/miska2.jpg';
-import miska3 from 'assets/chapter4/miska3.jpg';
-import testo1 from 'assets/chapter4/testo1.jpg';
-import testo2 from 'assets/chapter4/testo2.jpg';
-import testo3 from 'assets/chapter4/testo3.jpg';
-import led1 from 'assets/chapter4/led1.jpg';
-import led2 from 'assets/chapter4/led2.jpg';
-import duny1 from 'assets/chapter4/duny1.jpg';
-import duny2 from 'assets/chapter4/duny2.jpg';
-import pisek1 from 'assets/chapter4/pisek1.png';
-import pisek2 from 'assets/chapter4/pisek2.jpg';
-import pena1 from 'assets/chapter4/pena1.jpg';
-import pena2 from 'assets/chapter4/pena2.jpg';
-import pena3 from 'assets/chapter4/pena3.jpg';
-import pytliky1 from 'assets/chapter4/pytliky1.jpg';
-import pytliky2 from 'assets/chapter4/pytliky2.jpg';
-import balony1 from 'assets/chapter4/balony1.jpg';
-import balonky1 from 'assets/chapter4/balonky1.png';
-import balonky2 from 'assets/chapter4/balonky2.jpg';
-import foam1 from 'assets/chapter4/foam1.jpg';
-import bag1 from 'assets/chapter4/bag1.png';
-import bag2 from 'assets/chapter4/bag2.jpg';
-import tabule1 from 'assets/chapter4/tabule1.jpg';
-import tabule2 from 'assets/chapter4/tabule2.jpg';
 
 const metadata = {
 	id: 'hmatove-vnimani',
 	icon: Hand,
 	title: 'Hmatové vnímání',
-	color: '#00838f',
+	color: '#548b8e',
 	subchapters: MapChapters('proprioceptivni-vnimani', 'podkapitola', [
 		'Hypersenzitivita',
 		'Hyposenzitiva',
@@ -52,10 +29,11 @@ const metadata = {
 		'Miska s poklady',
 		'Patlání se v těstu',
 		'Hry s ledem',
-		'Písečné duny',
+		'Hry s pískem',
 		'Kinetický písek',
 		'Roztírání krému, mýdla, peelingu',
 		'Hry s pěnou',
+		'Hmatové pytlíky',
 		'Balony',
 		'Senzorické balony',
 		'Pohyb v přírodě',
@@ -188,9 +166,9 @@ const Content: FC = () => (
 					měla být co nejvyšší, aby ruka byla ponořena co nejvíc.
 				</Text>
 				<Gallery>
-					<Img src={miska1} />
-					<Img src={miska2} />
-					<Img src={miska3} />
+					<Img {...GALLERY['chapter-4-miska1']} />
+					<Img {...GALLERY['chapter-4-miska2']} />
+					<Img {...GALLERY['chapter-4-miska3']} />
 				</Gallery>
 			</Chapter>
 
@@ -202,9 +180,9 @@ const Content: FC = () => (
 					třeba sušenky.
 				</Text>
 				<Gallery>
-					<Img src={testo1} />
-					<Img src={testo2} />
-					<Img src={testo3} />
+					<Img {...GALLERY['chapter-4-testo1']} />
+					<Img {...GALLERY['chapter-4-testo2']} />
+					<Img {...GALLERY['chapter-4-testo3']} />
 				</Gallery>
 			</Chapter>
 
@@ -216,8 +194,8 @@ const Content: FC = () => (
 					Barvením ledu tak rozvíjíte nejen hmat, ale i zrak.
 				</Text>
 				<Gallery>
-					<Img src={led1} />
-					<Img src={led2} />
+					<Img {...GALLERY['chapter-4-led1']} />
+					<Img {...GALLERY['chapter-4-led2']} />
 				</Gallery>
 			</Chapter>
 
@@ -232,8 +210,8 @@ const Content: FC = () => (
 					rozdrcené kukuřičné lupínky.
 				</Text>
 				<Gallery>
-					<Img src={duny1} />
-					<Img src={duny2} />
+					<Img {...GALLERY['chapter-4-duny1']} />
+					<Img {...GALLERY['chapter-4-duny2']} />
 				</Gallery>
 			</Chapter>
 
@@ -245,28 +223,50 @@ const Content: FC = () => (
 					míchat jako těsto. Je pevnější než klasický písek a pro děti mnohdy
 					zajímavější.
 				</Text>
+				<Text>
+					Recep na výrobu písku můžete nalézt{' '}
+					<Link
+						href="https://abecedazahrady.dama.cz/clanek/vyrobte-detem-vlastni-kineticky-pisek-je-to-jednoduche-a-usetrite-tady-jsou-3-vyzkousene-recepty"
+						target="_blank"
+						rel="noreferrer"
+						underline
+					>
+						zde
+					</Link>
+					.
+				</Text>
 				<Gallery>
-					<Img src={pisek1} />
-					<Img src={pisek2} />
+					<Img {...GALLERY['chapter-4-pisek1']} />
+					<Img {...GALLERY['chapter-4-pisek2']} />
 				</Gallery>
 			</Chapter>
 
 			<Chapter {...metadata.activities[5]}>
 				<Text>
-					Doma si můžete vyrobit také váš vlastní kinetický písek, který lze
-					uchovávat ve větší plastové krabici. Lze z něj stavět a hrát si s
-					použitím mnoha různých nástrojů, tisknout do něj tvary, nebo jen tak
-					míchat jako těsto. Je pevnější než klasický písek a pro děti mnohdy
-					zajímavější.
+					Dětem, kterým krém na kuži vadí, doporučuju začít s natíráním nejprve
+					vany, hraček nebo umyvadla, aby si na strukturu substance zvykly. A až
+					poté můžete začít od dlaní nahoru k pažím, ramenům a dolním
+					končetinám. Pro děti hyposenzitivní můžete využít peeling, nebo hustší
+					krémy a vy, nebo dítě, roztírejte krém celými dlaněmi.
 				</Text>
-				<Gallery>
-					<Img src={pena1} />
-					<Img src={pena2} />
-					<Img src={pena3} />
-				</Gallery>
 			</Chapter>
 
 			<Chapter {...metadata.activities[6]}>
+				<Text>
+					Koupání můžete oživit přidáním pěny (gelu) na holení, nebo mýdlové
+					pěny. Nanášet ji můžete na tělo dítěte, na stěny, foukat do ní (skvěla
+					motivace na procvičení mimického svalstva). Pěnu můžete využít i mimo
+					vanu, například v lavoru, přidat můžete nádobí a napodobovat tak jeho
+					umývání. Přidáním barvy aktivitu oživíte.
+				</Text>
+				<Gallery>
+					<Img {...GALLERY['chapter-4-pena1']} />
+					<Img {...GALLERY['chapter-4-pena2']} />
+					<Img {...GALLERY['chapter-4-pena3']} />
+				</Gallery>
+			</Chapter>
+
+			<Chapter {...metadata.activities[7]}>
 				<Text>
 					Pytlíky můžeme naplnit různým materiálem - luštěniny, mouka, cukr,
 					rýže nebo kamínky. Jako obal můžeme využít balonky, či látkové
@@ -276,12 +276,12 @@ const Content: FC = () => (
 					na prokousnutí pytlíčku dětmi a pozření jeho obsahu.
 				</Text>
 				<Gallery>
-					<Img src={pytliky1} />
-					<Img src={pytliky2} />
+					<Img {...GALLERY['chapter-4-pytliky1']} />
+					<Img {...GALLERY['chapter-4-pytliky2']} />
 				</Gallery>
 			</Chapter>
 
-			<Chapter {...metadata.activities[7]}>
+			<Chapter {...metadata.activities[8]}>
 				<Text>
 					Balony jsou skvělá věc pro děti, které rády mačkají, dokážou si tak
 					krásně doplnit potřebné senzorické vjemy. Navíc zmáčknutím balonku
@@ -293,11 +293,11 @@ const Content: FC = () => (
 					jenom balonky z běžného obchodu, nejsou určené ke kousání.
 				</Text>
 				<Gallery>
-					<Img src={balony1} />
+					<Img {...GALLERY['chapter-4-balony1']} />
 				</Gallery>
 			</Chapter>
 
-			<Chapter {...metadata.activities[8]}>
+			<Chapter {...metadata.activities[9]}>
 				<Text>
 					Balónky určené přímo na stimulaci taktilního systému v různých
 					provedeních povrchů. Využít je můžete nejen na mačkání v ruce, ale
@@ -306,12 +306,12 @@ const Content: FC = () => (
 					se poraďte s terapeutem. Dobré výrobky má firma Tullo.
 				</Text>
 				<Gallery>
-					<Img src={balonky1} />
-					<Img src={balonky2} />
+					<Img {...GALLERY['chapter-4-balonky1']} />
+					<Img {...GALLERY['chapter-4-balonky2']} />
 				</Gallery>
 			</Chapter>
 
-			<Chapter {...metadata.activities[9]}>
+			<Chapter {...metadata.activities[10]}>
 				<Text>
 					Co nejvíc se snažte o pohyb s dítětem venku, pokud to jde procházejte
 					se naboso, nebo s bearefoot botách. Je důležité, aby děti cítily
@@ -323,7 +323,7 @@ const Content: FC = () => (
 				</Text>
 			</Chapter>
 
-			<Chapter {...metadata.activities[10]}>
+			<Chapter {...metadata.activities[11]}>
 				<Text>
 					Plastelína je výborná na mačkání, bouchání, válení válečků. Můžete
 					stavět podle předlohy, popisu nebo jen prostě mačkat. Pokud nemá dítě
@@ -349,11 +349,11 @@ const Content: FC = () => (
 					mají spíše rády na válení kuliček a trhání.
 				</Text>
 				<Gallery>
-					<Img src={foam1} />
+					<Img {...GALLERY['chapter-4-foam1']} />
 				</Gallery>
 			</Chapter>
 
-			<Chapter {...metadata.activities[11]}>
+			<Chapter {...metadata.activities[12]}>
 				<Text>
 					Zpřístupněte vodu dítěti i mimo pravidelné koupání a chození na bazén.
 					Napusťte lavor plný vody, dejte tam různé předměty (kamínky, mušle,
@@ -365,22 +365,22 @@ const Content: FC = () => (
 				</Text>
 			</Chapter>
 
-			<Chapter {...metadata.activities[12]}>
+			<Chapter {...metadata.activities[13]}>
 				<Text>
 					Tzn. senzorický pytlík, je plastový průhledný pytel, do kterého se
 					leje gel, nebo hustý olej a různé předměty. Můžete tam dát knoflíky,
 					kuličky, plastová písmena, perle a prsty poté posouvat jednotlivé
-					předměty na příslušné místo.Rozvíjí se tak krom hmatového vnímání a
+					předměty na příslušné místo. Rozvíjí se tak krom hmatového vnímání a
 					jemná motorika. Můžete přidat i hydrogenové perle (když jsou zavřené v
 					pytlíku, není jejich toxicita problém).
 				</Text>
 				<Gallery>
-					<Img src={bag1} />
-					<Img src={bag2} />
+					<Img {...GALLERY['chapter-4-bag1']} />
+					<Img {...GALLERY['chapter-4-bag2']} />
 				</Gallery>
 			</Chapter>
 
-			<Chapter {...metadata.activities[13]}>
+			<Chapter {...metadata.activities[14]}>
 				<Text>
 					K rozvoji hmatového vnímání dolních končetin je vhodný taktilní
 					chodník. Dá se buď koupit, anebo si ho můžete vyrobit sami z
@@ -396,10 +396,14 @@ const Content: FC = () => (
 					Vlastní výroba má výhodu, že můžete povrch přizpůsobit podle potřeb
 					dítěte, navíc může být i levnější než kupované.
 				</Text>
-				<Gallery>{/* TODO: */}</Gallery>
+				<Gallery>
+					<Img {...GALLERY['chapter-4-chodnik1']} />
+					<Img {...GALLERY['chapter-4-chodnik2']} />
+					<Img {...GALLERY['chapter-4-chodnik3']} />
+				</Gallery>
 			</Chapter>
 
-			<Chapter {...metadata.activities[14]}>
+			<Chapter {...metadata.activities[15]}>
 				<Text>
 					Pro děti s hyposenzitivním vnímáním, je dobré jim taktilní zážitek
 					maximálně zesílit. Proto jim můžeme přicvaknout na konečky prstů
@@ -409,7 +413,7 @@ const Content: FC = () => (
 				</Text>
 			</Chapter>
 
-			<Chapter {...metadata.activities[15]}>
+			<Chapter {...metadata.activities[16]}>
 				<Text>
 					Velmi dobrá pomůcka k rozvoji senzorické diskriminace horních
 					končetin. Můžete si ji koupit, ale na trhu jsou zatím pouze velmi
@@ -418,12 +422,12 @@ const Content: FC = () => (
 					Poté necháme dítě objevovat a zkoumat různí textury.
 				</Text>
 				<Gallery>
-					<Img src={tabule1} />
-					<Img src={tabule2} />
+					<Img {...GALLERY['chapter-4-tabule1']} />
+					<Img {...GALLERY['chapter-4-tabule2']} />
 				</Gallery>
 			</Chapter>
 
-			<Chapter {...metadata.activities[15]}>
+			<Chapter {...metadata.activities[17]}>
 				<Text>
 					Využít můžeme velký gymnastický míč i menší míče. Kutálíme vleže jemně
 					po dolních i horních končetinách, někde tlak můžeme zvýšit. Vždy se

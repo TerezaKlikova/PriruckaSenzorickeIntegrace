@@ -7,17 +7,17 @@ import Chapter from 'components/Chapter';
 import Gallery from 'components/Gallery';
 
 import { ChapterType } from 'pages/Chapters';
+import { GALLERY } from 'pages/Sources';
 
 import { MapChapters } from 'utils';
 
 import { ReactComponent as Brain } from 'assets/brain.svg';
-import sensorImg from 'assets/chapter1/sensor1.gif';
 
 const metadata = {
 	id: 'senzoricka-integrace',
 	icon: Brain,
 	title: 'Senzorická integrace',
-	color: '#ad1457',
+	color: '#ae688f',
 	subchapters: MapChapters('senzoricka-integrace', 'podkapitola', [
 		'Porucha smyslového zpracování',
 		'Porucha smyslové modulace',
@@ -26,6 +26,8 @@ const metadata = {
 	]),
 	activities: [],
 } as ChapterType;
+
+console.log(GALLERY['chapter-1-sensor']);
 
 const Content: FC = () => (
 	<Chapter variant="main" {...metadata}>
@@ -40,7 +42,7 @@ const Content: FC = () => (
 			ohněm) potřebujeme dobré fungování všech částí procesu.
 		</Text>
 		<Gallery>
-			<Img src={sensorImg} />
+			<Img {...GALLERY['chapter-1-sensor']} />
 		</Gallery>
 		<Text>
 			K tomu, abychom dobře vnímali příchozí informace potřebujeme smysly. Každý
@@ -52,8 +54,12 @@ const Content: FC = () => (
 			Správné senzorické zpracování je důležité pro mnoho každodenních činností,
 			jako je pozornost, komunikace, příjem potravy, rovnováha, motorika aj.
 			Když zjistíme u někoho obtíže v těchto oblastech, může to být práve
-			zapříčeněné poruchou senzorické integrace.
+			zapříčeněné poruchou senzorické integrace. Proč je integrace smyslů tak
+			důležitá, nám znázorňuje tato pyramida:
 		</Text>
+		<Gallery>
+			<Img {...GALLERY['chapter-1-pyramid']} />
+		</Gallery>
 
 		<Chapter {...metadata.subchapters[0]}>
 			<Text>

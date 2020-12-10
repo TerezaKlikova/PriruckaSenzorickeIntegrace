@@ -10,11 +10,19 @@ import { NavItem } from 'pages/Chapters';
 import useHeaderHeight from 'hooks/useHeaderHeight';
 
 type Props = {
+	printTitle?: string;
 	variant?: 'main' | 'activity';
 	color?: string;
 } & NavItem;
 
-const Chapter: FC<Props> = ({ variant, id, title, color, children }) => {
+const Chapter: FC<Props> = ({
+	variant,
+	id,
+	title,
+	printTitle,
+	color,
+	children,
+}) => {
 	const topOffset = useHeaderHeight();
 	return (
 		<Flex
@@ -24,6 +32,7 @@ const Chapter: FC<Props> = ({ variant, id, title, color, children }) => {
 			pt={topOffset}
 			mt={-topOffset}
 			css={css`
+				pointer-events: none;
 				@media print {
 					${variant === 'main' &&
 					css`
@@ -38,9 +47,35 @@ const Chapter: FC<Props> = ({ variant, id, title, color, children }) => {
 				}
 			`}
 		>
-			<Text fontSize={variant ? 'xl' : 'lg'} color={color} fontWeight="bold">
+			<Text
+				fontSize={variant ? 'xl' : 'lg'}
+				color={color}
+				fontWeight="bold"
+				css={
+					printTitle &&
+					css`
+						@media print {
+							display: none;
+						}
+					`
+				}
+			>
 				{variant === 'activity' ? 'Aktivity' : title}
 			</Text>
+			{printTitle && (
+				<Text
+					fontSize={variant ? 'xl' : 'lg'}
+					color={color}
+					fontWeight="bold"
+					css={css`
+						@media not print {
+							display: none;
+						}
+					`}
+				>
+					{variant === 'activity' ? 'Aktivity' : printTitle}
+				</Text>
+			)}
 			{children}
 		</Flex>
 	);

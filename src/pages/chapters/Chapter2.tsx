@@ -5,26 +5,20 @@ import Img from 'components/Img';
 import { ListItem, UnorderedList } from 'components/List';
 import Chapter from 'components/Chapter';
 import Gallery from 'components/Gallery';
+import Link from 'components/Link';
 
 import { ChapterType } from 'pages/Chapters';
+import { GALLERY } from 'pages/Sources';
 
 import { MapChapters } from 'utils';
 
 import { ReactComponent as JumpingRope } from 'assets/jumping-rope.svg';
-import houpani3 from 'assets/chapter2/houpani3.png';
-import houpani2 from 'assets/chapter2/houpani2.png';
-import houpani1 from 'assets/chapter2/houpani1.png';
-import most1 from 'assets/chapter2/most1.png';
-import prkno1 from 'assets/chapter2/prkno1.png';
-import deska1 from 'assets/chapter2/deska1.png';
-import deska2 from 'assets/chapter2/deska2.png';
-import lezeni1 from 'assets/chapter2/lezeni1.jpg';
 
 const metadata = {
 	id: 'vestibularni-vnimani',
 	icon: JumpingRope,
 	title: 'Vestibulární vnímání',
-	color: '#4527a0',
+	color: '#5c5791',
 	subchapters: MapChapters('vestibularni-vnimani', 'podkapitola', [
 		'Hypersenzitivita',
 		'Hyposenzitiva',
@@ -177,9 +171,8 @@ const Content: FC = () => (
 				Pokud nesmíte nemůžete vrtat do stropu, dají se využít stojany.
 			</Text>
 			<Gallery>
-				<Img src={houpani1} />
-				<Img src={houpani2} />
-				<Img src={houpani3} />
+				<Img {...GALLERY['chapter-2-houpani1']} />
+				<Img {...GALLERY['chapter-2-houpani2']} />
 			</Gallery>
 		</Chapter>
 
@@ -189,7 +182,7 @@ const Content: FC = () => (
 				Trénujete tím rovnovážné cítění, hrubou motoriku a vestibulární systém.
 			</Text>
 			<Gallery>
-				<Img src={most1} />
+				<Img {...GALLERY['chapter-2-most1']} />
 			</Gallery>
 		</Chapter>
 
@@ -199,7 +192,7 @@ const Content: FC = () => (
 				vývoji rovnováhy, tonusu těla, stability, hrubé motoriky.
 			</Text>
 			<Gallery>
-				<Img src={prkno1} />
+				<Img {...GALLERY['chapter-2-prkno1']} />
 			</Gallery>
 		</Chapter>
 
@@ -239,18 +232,19 @@ const Content: FC = () => (
 				malování, nebo jiné činnosti.
 			</Text>
 			<Gallery>
-				<Img src={deska1} />
-				<Img src={deska2} />
+				<Img {...GALLERY['chapter-2-deska1']} />
+				<Img {...GALLERY['chapter-2-deska2']} />
 			</Gallery>
 			<Text>
 				Inspiraci pro další aktivity s deskou naleznete{' '}
-				<a
+				<Link
 					href="https://www.mymundaneandmiraculouslife.com/scooter-board-sensory-activities/"
 					target="_blank"
 					rel="noreferrer"
+					underline
 				>
 					zde
-				</a>
+				</Link>
 				.
 			</Text>
 		</Chapter>
@@ -274,7 +268,7 @@ const Content: FC = () => (
 				s houpačkou, lanem, žebřiny jsou předsunutí.
 			</Text>
 			<Gallery>
-				<Img src={lezeni1} />
+				<Img {...GALLERY['chapter-2-lezeni1']} />
 			</Gallery>
 		</Chapter>
 	</Chapter>

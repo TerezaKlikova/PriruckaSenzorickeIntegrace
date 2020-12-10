@@ -14,7 +14,7 @@ const metadata = {
 	id: 'chutove-vnimani',
 	icon: Tongue,
 	title: 'Chuťové vnímání',
-	color: '#d84315',
+	color: '#d3746a',
 	subchapters: MapChapters('chutove-vnimani', 'podkapitola', [
 		'Hypersenzitivita',
 		'Hyposenzitiva',

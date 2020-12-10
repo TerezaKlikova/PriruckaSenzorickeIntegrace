@@ -88,7 +88,7 @@ const Chapters: FC<Props> = ({ children }) => {
 				<Flex position="sticky" top={topOffset} pt={3} flexDirection="column">
 					{children.map((c, i) => (
 						<Fragment key={c.id}>
-							<Link href={`#${c.id}`}>
+							<Link href={`#${c.id}`} color="white">
 								<Flex
 									alignItems="center"
 									bg={
@@ -102,7 +102,6 @@ const Chapters: FC<Props> = ({ children }) => {
 									<Box as={c.icon} width={20} flexShrink={0} />
 									<Text
 										ml={2}
-										color="white"
 										fontSize={'lg'}
 										fontWeight={current === i ? 'bold' : undefined}
 									>
@@ -176,6 +175,7 @@ const Chapters: FC<Props> = ({ children }) => {
 						<Link
 							key={c.id}
 							href={`#${c.id}`}
+							title={c.title}
 							p={2}
 							bg={
 								current === i

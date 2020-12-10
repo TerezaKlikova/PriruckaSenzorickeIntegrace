@@ -14,7 +14,7 @@ const metadata = {
 	id: 'cichove-vnimani',
 	icon: Nose,
 	title: 'Čichové vnímání',
-	color: '#ff8f00',
+	color: '#ec8946',
 	subchapters: MapChapters('cichove-vnimani', 'podkapitola', [
 		'Hypersenzitivita',
 		'Hyposenzitiva',

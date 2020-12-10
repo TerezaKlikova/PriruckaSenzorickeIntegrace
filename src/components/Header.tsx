@@ -10,6 +10,7 @@ import Button from 'components/Button';
 import { InvertFocusStyle, Theme } from 'theme';
 
 import { ReactComponent as HamburgerIcon } from 'assets/hamburger-menu.svg';
+import { ReactComponent as Icon } from 'assets/icon.svg';
 
 type Props = {
 	items: {
@@ -42,6 +43,7 @@ const Header: FC<Props> = ({ items }) => {
 			>
 				<Flex justifyContent="space-between">
 					<Link
+						display="flex"
 						p={2}
 						ml={-2}
 						href="#"
@@ -49,11 +51,15 @@ const Header: FC<Props> = ({ items }) => {
 						fontSize="lg"
 						color="white"
 						css={css`
+							align-items: center;
 							&:focus {
 								${InvertFocusStyle}
 							}
 						`}
 					>
+						<Box mr={2}>
+							<Icon height={30} />
+						</Box>
 						Příručka senzorické integrace
 					</Link>
 					<Box

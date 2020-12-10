@@ -14,7 +14,7 @@ const metadata = {
 	id: 'sluchove-vnimani',
 	icon: Ear,
 	title: 'Sluchové vnímání',
-	color: '#9e9d24',
+	color: '#999543',
 	subchapters: MapChapters('sluchove-vnimani', 'podkapitola', [
 		'Hypersenzitivita',
 		'Hyposenzitiva',
