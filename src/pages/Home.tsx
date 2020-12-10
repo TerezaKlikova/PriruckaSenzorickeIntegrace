@@ -61,30 +61,38 @@ const Home: FC = () => (
 			Doufám, že bude pro Vás příručka srozumitelným a informativním materiálem,
 			který Vás dokáže nasměrovat správným směrem.
 		</Text>
-		<Text>
-			V případě jakýchkoliv dotazů, nebo připomínek, mě můžete kontaktovat na
-			email{' '}
-			<Link href="mailto:terkaklika@gmail.com" underline noLink>
-				terkaklika@gmail.com
-			</Link>
-			.
-		</Text>
-		<Text
+		<Box
 			css={css`
-				@media not print {
-					display: none;
+				@media print {
+					page-break-inside: avoid;
 				}
 			`}
 		>
-			Aktualizovanou online verzi této příručky můžete najít{' '}
-			<Link
-				href="https://terezaklikova.github.io/PriruckaSenzorickeIntegrace/"
-				underline
+			<Text>
+				V případě jakýchkoliv dotazů, nebo připomínek, mě můžete kontaktovat na
+				email{' '}
+				<Link href="mailto:terkaklika@gmail.com" underline noLink>
+					terkaklika@gmail.com
+				</Link>
+				.
+			</Text>
+			<Text
+				css={css`
+					@media not print {
+						display: none;
+					}
+				`}
 			>
-				zde
-			</Link>
-			.
-		</Text>
+				Aktualizovanou online verzi této příručky můžete najít{' '}
+				<Link
+					href="https://terezaklikova.github.io/PriruckaSenzorickeIntegrace/"
+					underline
+				>
+					zde
+				</Link>
+				.
+			</Text>
+		</Box>
 	</Chapter>
 );
 

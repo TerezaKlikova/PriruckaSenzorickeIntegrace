@@ -68,7 +68,8 @@ const Content: FC = () => (
 				něj umět adekvátně odpovědět a taktéž jednotlivé vjemy od sebe rozlišit.
 			</Text>
 			<Text>
-				To jak různé vjemy můžeme zaregistrovat rozdělujeme do třech kategoriíc
+				To, jak různé vjemy můžeme zaregistrovat, rozdělujeme do třech
+				kategorií:
 			</Text>
 			<NumberedList>
 				<ListItem>Porucha smyslové modulace</ListItem>
