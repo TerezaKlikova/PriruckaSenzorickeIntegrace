@@ -44,7 +44,7 @@ export default [
 	},
 	{
 		id: 'miska3',
-		title: 'Stimulace hmaru v misce hrachu',
+		title: 'Stimulace hmatu v misce hrachu',
 		text: 'Foto autorka.',
 		src: miska3,
 	},
@@ -113,7 +113,7 @@ export default [
 	},
 	{
 		id: 'pena1',
-		title: 'Křeslení do pěny',
+		title: 'Kreslení do pěny',
 		text:
 			'Cream Painting Process Art for Preschoolers. In: Fun with Mama [online]. 29.1. 2019 [cit. 2020-12-09].',
 		href:

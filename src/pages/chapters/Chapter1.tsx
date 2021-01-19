@@ -86,23 +86,23 @@ const Content: FC = () => (
 			</Text>
 
 			<Text fontWeight="bold" fontStyle="italic" mb={0}>
-				Přehnaná reakce na podmět (hypersenzitivita)
+				Přehnaná reakce na podnět (hypersenzitivita)
 			</Text>
 			<Text>
-				Takové děti se budou odmítat dotknout se některých povrchů. Bude mu
-				nepříjemné dotýkat se mastného, slizkého, mokrého. Nepříjemné bud bude
+				Takové děti se budou odmítat dotknout některých povrchů. Bude jim
+				nepříjemné dotýkat se mastného, slizkého, mokrého. Nepříjemné jim bude
 				stříhání vlasů, objetí a některé látky. Může nastat i tzv. sumativní
 				efekt. Jednotlivé vjemy se během dne střádají bez odpovědi a náhlá
 				přehnaná reakce se objeví na zdánlivé nepodstatném vjemu.
 			</Text>
 
 			<Text fontWeight="bold" fontStyle="italic" mb={0}>
-				Nedostatečná reakce na podmět (hyposenzitivita)
+				Nedostatečná reakce na podnět (hyposenzitivita)
 			</Text>
 			<Text>
-				Tento typ dětí si vjemu nevšimnou, neodpoví či reakce je opožděná Tím,
-				že podněty vnímají nedostatečně, stávají se apatické, až letargické.
-				Malá aktivita tedy není způsobena nedostatečnou motivací, ale chybným
+				Tento typ dětí si vjemu nevšimne, neodpoví či reakce je opožděná Tím, že
+				podněty vnímají nedostatečně, stávají se apatické, až letargické. Malá
+				aktivita tedy není způsobena nedostatečnou motivací, ale chybným
 				vnímáním podnětů (dítě se může zdát hluchým – nereaguje na hlasové
 				podněty a ani na ně patřičně neodpovídá). Typické je i špatné vnímání
 				bolesti a teploty. Často jsou během kojeneckého období považovány za
@@ -117,7 +117,7 @@ const Content: FC = () => (
 				dosytit, a tak vyhledávají aktivity toho druhu, které jsou jim příjemné
 				a stimulují je. Tento druh poruchy se nesoustředí na jeden senzorický
 				systém, ale zasáhnout může jakýkoli. Takové děti preferuji hlasitou
-				hudbu, zvuky zrak stimulující objekty. Tím, že osoba nezachycuje žádný
+				hudbu, zvuky a zrak stimulující objekty. Tím, že dítě nezachycuje žádný
 				vjem, začne instinktivně podněty sbírat, např. třepotáním ručičkama,
 				kolébáním či vydáváním zvuků.
 			</Text>
@@ -126,22 +126,22 @@ const Content: FC = () => (
 		<Chapter {...metadata.subchapters[2]}>
 			<Text>
 				Tato porucha se projevuje v nedostatečném rozlišováním mezi podněty,
-				jejich podobností a intenzitou. Děti nedokáží rozlušit mezi dvěma
+				jejich podobností a intenzitou. Děti nedokáží rozlišit mezi dvěma
 				různými vjemy, jejich trváním a intenzitou. Správná funkce rozlišování
 				mezi podněty je potřebná pro plánování pohybů, jazykové schopnosti,
 				sluchové a zrakovým vnímání a v neposlední řadě schopností se bez
 				problémů učit. Obtíže u takových dětí se projevují například jako
-				neschopnost rozeznat tvarem mezo gumou a koláčem (bez použití zraku),
-				nedojde jim, jak může pálit svíčka či neodhanou výšku schodů. Potřebují
-				delší čas na zapnutí zipu u bundy, aniž by měli zrakovou kontrolu nad
-				činností. Obtíže se mohou projevovat i v rozlišování tvarově a sluchově
-				podobných hlásek.
+				neschopnost rozeznat rozdíl v tvaru mezi gumou a koláčem (bez použití
+				zraku), nedojde jim jak může pálit svíčka či neodhadnou výšku schodů.
+				Potřebují delší čas na zapnutí zipu u bundy, aniž by měli zrakovou
+				kontrolu nad činností. Obtíže se mohou projevovat i v rozlišování
+				tvarově a sluchově podobných hlásek.
 			</Text>
 		</Chapter>
 
 		<Chapter {...metadata.subchapters[3]}>
 			<Text>
-				U této poruchy je hlavním problémem (rovnováha), přesun, nebo plánování
+				U této poruchy je hlavním problémem rovnováha, přesun, nebo plánování
 				série pohybů v reakci na smyslové požadavky. U dítěte se objevují
 				problémy s koordinací a kontrolou vlastního těla.
 			</Text>
@@ -157,11 +157,11 @@ const Content: FC = () => (
 			</Text>
 			<Text>
 				Projevy u takových dětí jsou v zhoršení stabilitě těla, neadekvátním
-				svalovým napětím a špatnou funkcí svalů při v pohybu proti gravitaci
-				(směr vzhůru, dítě má slabé svalové napětí). Děti mají problém odhadnout
-				jak moc je od nich předmět vzdálený, nevydrží dlouho v jedné poloze.
-				Projevit se to může při psaní – potřebuje si podložit hlavu rukami, nebo
-				lehnout si na lavici. Jsou často unavené, vypadají jako kdyby byly
+				svalovým napětím a špatnou funkcí svalů při pohybu proti gravitaci (směr
+				vzhůru, dítě má slabé svalové napětí). Děti mají problém odhadnout jak
+				moc je od nich předmět vzdálený, nevydrží dlouho v jedné poloze.
+				Projevit se to může při psaní – potřebují si podložit hlavu rukami, nebo
+				si lehnout na lavici. Jsou často unavené, vypadají jako kdyby byly
 				ochablé.
 			</Text>
 
@@ -171,7 +171,7 @@ const Content: FC = () => (
 			<Text>
 				Děti s dyspraxii mají obtíže se začátkem, plánováním, organizováním a
 				provádění sekvencí pohybů. Zasahuje do interakce s fyzickým prostředím,
-				hrubá a jemná motorika, společně s oromotorikou, působí nekoordinovaně a
+				hrubá a jemná motorika, společně s oromotorikou působí nekoordinovaně a
 				neohrabaně. Dyspraxie se často pojí s poruchou senzorické registrace a
 				diskriminace. Vykonávání neznámých aktivit je pro ně obtížné. Běžné
 				aktivity jsou pro ně skličující – oblékání, nalévání mléka, nastupování

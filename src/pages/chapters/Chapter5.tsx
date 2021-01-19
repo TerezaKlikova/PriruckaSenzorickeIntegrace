@@ -40,7 +40,7 @@ const Content: FC = () => (
 			<Text>Můžeme poznat dítě podle toho, že:</Text>
 			<UnorderedList>
 				<ListItem>
-					vadí mu velmi ostré světlo (zakrývají si oči) a zároveň tma
+					vadí mu velmi ostré světlo (zakrývá si oči) a zároveň tma
 				</ListItem>
 				<ListItem>zalekne se ostrých záblesků (blesky)</ListItem>
 				<ListItem>často sklání zrak do země</ListItem>
@@ -111,7 +111,7 @@ const Content: FC = () => (
 
 			<Chapter {...metadata.activities[1]}>
 				<Text>
-					Pomůcka, kterou si můžete vyrobit doma. Stačí nasypat trochu sodu na
+					Pomůcka, kterou si můžete vyrobit doma. Stačí nasypat trochu sody na
 					dně láhve, přidat do dvou třetin láhve olej a poté obarevný ocet. Soda
 					začne reagovat s octem v oleji do bublinek. Ocet taktéž můžeme
 					přidávat do láhve po troškách kapátkem a trénovat tak jemnou motoriku.
@@ -147,7 +147,7 @@ const Content: FC = () => (
 			<Chapter {...metadata.activities[3]}>
 				<Text>
 					Krabice je zespodu podsvícená, tak aby zvýraznila co nejvíce předměty
-					na ní položení. Dobré je v místnosti zhasnout a nechat svítit pouze
+					na ní položené. Dobré je v místnosti zhasnout a nechat svítit pouze
 					krabici, dětem se tak sníží možnost rozrušovat se jinými podněty a
 					mohou se soustředit pouze na úkoly na krabici. Na víko krabice můžete
 					vkládat barevné průsvitné obrazce (viz spodní obrázek), nebo nasypat

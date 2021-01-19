@@ -29,7 +29,7 @@ export default [
 	},
 	{
 		id: 'most1',
-		title: 'Montesory most',
+		title: 'Montessori most',
 		text:
 			'KRAVCOVA, Dominika. Montessori duhová houpačka 5in1: ELIS DESIGN. In: Elisdesign.cz [online]. [cit. 2020-12-09].',
 		href:
@@ -38,7 +38,7 @@ export default [
 	},
 	{
 		id: 'prkno1',
-		title: 'Hpupací prkno',
+		title: 'Houpací prkno',
 		text:
 			'Houpací prkno - Princess - Houpee. In: Houpee.cz [online]. [cit. 2020-12-09].',
 		href: 'https://www.houpee.cz/houpaci-prkno--princess/',
@@ -53,7 +53,7 @@ export default [
 	},
 	{
 		id: 'deska2',
-		title: 'Aktivity na pojízdné descne',
+		title: 'Aktivity na pojízdné desce',
 		text:
 			'Scooter Board Sensory Activities. In: My Mundane and Miraculous Life [online]. 19.2. 2020 [cit. 2020-12-09].',
 		href:

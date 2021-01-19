@@ -68,6 +68,13 @@ const USEFUL_LINKS: UsefulLinkProps[] = [
 			'Poskytuje ucelenou rehabiliace za pomoci terapie SI, neurovyvojové terapie, terapeutického poslechu.',
 		],
 	},
+	{
+		title: 'Sensory Integration Education',
+		href: 'https://www.sensoryintegration.org.uk/',
+		description: [
+			'Organizace poskytující vzdělávání v oboru terapie senzorické integrace.',
+		],
+	},
 ];
 
 const UsefulLinks: FC = () => (

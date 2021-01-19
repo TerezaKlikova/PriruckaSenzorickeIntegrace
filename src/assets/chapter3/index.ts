@@ -24,7 +24,7 @@ export default [
 	},
 	{
 		id: 'lano1',
-		title: 'Přetahovaní se na laně na pojízdné desce',
+		title: 'Přitahování se na laně na pojízdné desce',
 		text:
 			'SCOOTER BOARD ROPE PULL. In: Therapy Fun Zone [online]. [cit. 2020-12-09].',
 		href: 'https://therapyfunzone.net/blog/scooter-board-rope-pull/',

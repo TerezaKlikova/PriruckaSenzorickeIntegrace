@@ -20,13 +20,13 @@ const metadata = {
 		'Hyposenzitiva',
 	]),
 	activities: MapChapters('sluchove-vnimani', 'aktivita', [
-		'Světelný bublinkový válec',
-		'Lávová lampa',
-		'Světelné předměty',
-		'Světelná krabice',
-		'Hra na rybáře',
-		'Rozpoznávání předmětů',
-		'Orientace v prostředí',
+		'Hra na hudební nástroje',
+		'Poslech zvuků zvířat v okolí, nebo v nahrávky',
+		'Terapeutický poslech',
+		'EASe CD',
+		'Sluchové pexeso',
+		'Poslech Mozartovy hudby',
+		'Sluchátka izolující vnější zvuky',
 	]),
 } as ChapterType;
 
@@ -68,8 +68,7 @@ const Content: FC = () => (
 				</ListItem>
 				<ListItem>dělá mu dobře doprava, davy, také má rád vibrace</ListItem>
 				<ListItem>
-					děti mají potíže s porozuměním, sluchovou pamětí, gramatikou a
-					rytmikou
+					má potíže s porozuměním, sluchovou pamětí, gramatikou a rytmikou
 				</ListItem>
 				<ListItem>
 					mívá obtíže v oblastí artikulace a samotné funkční komunikaci

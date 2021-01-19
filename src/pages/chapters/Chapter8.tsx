@@ -99,7 +99,7 @@ const Content: FC = () => (
 			<Chapter {...metadata.activities[3]}>
 				<Text>
 					Kousátek je na trhu spousty, před jejich koupí se ale určitě poraďte s
-					odborníkem (logoped, poradknyě v obchodu s kousátky. Kousátka jsou
+					odborníkem (logoped, poradknyě v obchodu s kousátky). Kousátka jsou
 					vhodné pro potlačení silného tonusu v těle, odnaučení cucání prstů,
 					zvýšení tolerance předmětů v dutině ústní. Nebo naopak pro děti, které
 					kousat potřebují a koušou různé nejedlé předměty (sklo, dřevo,

@@ -74,7 +74,7 @@ const Content: FC = () => (
 					má slabou jemnou motoriku, úchop má ochablý, padají mu věci z rukou
 				</ListItem>
 				<ListItem>
-					má potíže s řečí, jedením a jiným orálně – motorickými pohyby
+					má potíže s řečí, jezením a jiným orálně – motorickými pohyby
 				</ListItem>
 				<ListItem>
 					strká si věci do pusy (kouše rukávy, tužky, někdy i sklo a jiné velmi
@@ -86,18 +86,18 @@ const Content: FC = () => (
 		<Chapter variant="activity" {...metadata}>
 			<Text>
 				U takových dětí je potřeba, aby maximálně zapojily své svaly, pohyb
-				těla, nebo na tělo byl vyvíjen tlak. Tak aby doopravdy cítily celé své
+				těla, nebo na tělo byl vyvíjen tlak. Tak, aby doopravdy cítily celé své
 				tělo.
 			</Text>
 
 			<Chapter {...metadata.activities[0]}>
 				<Text>
-					Deky plněné sypkým materiálem, jsou prošvané tak aby při přikrytí
-					dítěte objala celé tělo. Dají se koupit přímo hotové, ušité podle
+					Deky plněné sypkým materiálem jsou prošívané, tak aby při přikrytí
+					dítěte objaly celé tělo. Dají se koupit přímo hotové, ušité podle
 					velikosti a hmotnosti vašeho dítěte, nebo mužete využít těžší peřiny.
-					Vhodný pro dětí, které mají problém s usínáním, jsou neklidné,
+					Vhodné pro děti, které mají problém s usínáním, jsou neklidné,
 					potřebují cítit váhu na svém těle. Polštář je vhodný pro dětí, které
-					mají problém &ldquo;sedět&ldquo;, vrtí se na židli a neumí se
+					mají problém &ldquo;v klidu sedět&ldquo;, vrtí se na židli a neumí se
 					soustředit na úkoly. Vyrábí se v mnoha podobách (delfín, pejsek…).
 				</Text>
 				<Text>
@@ -145,10 +145,10 @@ const Content: FC = () => (
 			<Chapter {...metadata.activities[4]}>
 				<Text>
 					Aktivita na poznání hranic svého těla, určení kde v prostoru se
-					nacházejí na končetiny. Využít můžeme velkou roli papíru a obkreslení
-					tužkou, následně si obkreslné častí vybarvit a pojmenovat. Nebo tělo
-					můžeme ohraničit hračkami, těstovinami, čímkoli, aby tak bylo jasné,
-					že tam dítě leželo.
+					nacházejí naše končetiny. Využít můžeme velkou roli papíru a
+					obkreslení tužkou, následně si obkreslné častí vybarvit a pojmenovat.
+					Nebo tělo můžeme ohraničit hračkami, těstovinami, čímkoli, aby tak
+					bylo jasné, že tam dítě leželo.
 				</Text>
 			</Chapter>
 
@@ -157,10 +157,11 @@ const Content: FC = () => (
 					Menší děti můžeme posadit na sušičku, aby cítily vibrace. Nebo použít
 					elektrický kartáček a přejíždět po těla. Pokud má vaše dítě problémy v
 					oblasti oromotoriky (oslabené svaltvo úst) můžete vibrace použít i
-					tam. U citlivějších dětí začínejte vždy od dlaní a pak až využijte
-					vibrace v ústech, aby si na to zvyklo. Využít můžete jak elektrických
-					kartáčků, tak speciálních logovibrátorů. Dítě si tak lépe uvědomí
-					jednotlivé doteky, jak na končetinách, tak v ústech.
+					tam. U citlivějších dětí začínejte vždy od jiných částí těla, poté
+					přejděte k dlaním a pak až využijte vibrace v ústech, aby si na tento
+					pocit zvyklo. Využít můžete jak elektrických kartáčků, tak speciálních
+					logovibrátorů. Dítě si tak lépe uvědomí jednotlivé doteky, jak na
+					končetinách, tak v ústech.
 				</Text>
 				<Gallery>
 					<Img {...GALLERY['chapter-3-vibrace1']} />

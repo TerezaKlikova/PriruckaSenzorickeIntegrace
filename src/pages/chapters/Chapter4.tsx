@@ -34,10 +34,10 @@ const metadata = {
 		'Roztírání krému, mýdla, peelingu',
 		'Hry s pěnou',
 		'Hmatové pytlíky',
-		'Balony',
-		'Senzorické balony',
+		'Balóny',
+		'Senzorické balóny',
 		'Pohyb v přírodě',
-		'Plastelína, play doh, play foam',
+		'Plastelína, playdough, play foam',
 		'Hry s vodou',
 		'Sensory bag',
 		'Taktilní chodník',
@@ -66,7 +66,7 @@ const Content: FC = () => (
 					sebemenší vyvolá ataku
 				</ListItem>
 				<ListItem>
-					umytí vlasů a stříhání nehtů, je pro ně extrémně nepříjemné
+					umytí vlasů a stříhání nehtů je pro ně extrémně nepříjemné
 				</ListItem>
 				<ListItem>
 					preferují dlouhé rukávy a kalhoty a když fouká odmítají jít ven
@@ -155,8 +155,8 @@ const Content: FC = () => (
 					misek dát kaminky, mušle, kaštany, lego a zahrat si loto, nebo
 					vytahovat předměty poslepu a hadat, co jsou zač. Nebo jenom nasypat
 					plnou mísu rýže, písku, mouky a nechat je si užívat příjemného pocitu.
-					Nádoba by měla být co nejvyšší, aby ruka byla ponořena co nejlépe až
-					po lokty.
+					Nádoba by měla být co nejvyšší, aby ruka byla ponořena nejlépe až po
+					lokty.
 				</Text>
 				<Gallery>
 					<Img {...GALLERY['chapter-4-miska1']} />
@@ -181,7 +181,7 @@ const Content: FC = () => (
 
 			<Chapter {...metadata.activities[2]}>
 				<Text>
-					Je důležité, aby děti poznaly co nejvíc druhů povrchu a to včetně
+					Je důležité, aby děti poznaly co nejvíc druhů povrchů a to včetně
 					teplot. Zmrazte jim do misky různé drobné předměty, použijte i
 					potravinářské barvivo a nechte je pozorovat a vytahovat hračky z ledu.
 					Barvením ledu tak rozvíjíte nejen hmat, ale i zrak.
@@ -240,7 +240,7 @@ const Content: FC = () => (
 					vany, hraček nebo umyvadla, aby si na strukturu substance zvykly. A až
 					poté můžete začít od dlaní nahoru k pažím, ramenům a dolním
 					končetinám. Pro děti hyposenzitivní můžete využít peeling, nebo hustší
-					krémy a vy, nebo dítě, roztírejte krém celými dlaněmi.
+					krémy a vy, nebo dítě, roztírat krém celými dlaněmi.
 				</Text>
 			</Chapter>
 
@@ -262,7 +262,7 @@ const Content: FC = () => (
 			<Chapter {...metadata.activities[7]}>
 				<Text>
 					Pytlíky můžeme naplnit různým materiálem - luštěniny, mouka, cukr,
-					rýže nebo kamínky. Jako obal můžeme využít balonky, či látkové
+					rýže nebo kamínky. Jako obal můžeme využít balónky, či látkové
 					pytlíčky. Hmatové pytlíky můžeme využít jako poznávání různých
 					struktur (aniž by museli na ně citlivější děti sahat), anebo jako
 					pexeso, či přiřazovat jednotlivé pytlíčky k obsahu. Dávajte však pozor
@@ -276,14 +276,14 @@ const Content: FC = () => (
 
 			<Chapter {...metadata.activities[8]}>
 				<Text>
-					Balony jsou skvělá věc pro děti, které rády mačkají, dokážou si tak
+					Balóny jsou skvělá věc pro děti, které rády mačkají, dokážou si tak
 					krásně doplnit potřebné senzorické vjemy. Navíc zmáčknutím balonku
 					přesně vidí, jakou sílu vynaložily (užitečně u dětí s problémy odhadu
-					vlastní síly). Využít můžete balonky různého provedení, hladké, s
+					vlastní síly). Využít můžete balónky různého provedení, hladké, s
 					třásněmi nebo s gelovými kuličkami. Koupit se daji obyčejné v
 					obchodech jako je Kik, Nanu Nana nebo Tiger. Pokud má dítě zvýšenou
-					potřebu kousat, zvolte spíš čistě zdravotně nezávadné balonky, přece
-					jenom balonky z běžného obchodu nejsou určené ke kousání.
+					potřebu kousat, zvolte spíš čistě zdravotně nezávadné balónky, přece
+					jenom balónky z běžného obchodu nejsou určené ke kousání.
 				</Text>
 				<Gallery>
 					<Img {...GALLERY['chapter-4-balony1']} />
@@ -320,8 +320,8 @@ const Content: FC = () => (
 				<Text>
 					Plastelína je výborná na mačkání, bouchání, válení válečků. Můžete
 					stavět podle předlohy, popisu nebo jen prostě mačkat. Pokud nemá dítě
-					rádo mastný pocit z klasice plastelíny, anebo ji konzumuje,
-					alternativou je play doh, která je jedlá. Je vyrobená z kukuřičného
+					rádo mastný pocit z klasické plastelíny, anebo ji konzumuje,
+					alternativou je playdough, která je jedlá. Je vyrobená z kukuřičného
 					škrobu a můžete si ho vyrobit i sami.
 				</Text>
 				<Text>
