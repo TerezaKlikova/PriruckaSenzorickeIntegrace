@@ -13,7 +13,7 @@ type Props = {
 };
 const HomeChapters: FC<Props> = ({ children }) => (
 	<Grid
-		gridTemplateColumns="repeat(auto-fill, minMax(250px, 1fr))"
+		gridTemplateColumns={['1fr', 'repeat(auto-fill, minMax(250px, 1fr))']}
 		gridGap={3}
 		my={3}
 		css={css`
@@ -22,8 +22,8 @@ const HomeChapters: FC<Props> = ({ children }) => (
 			}
 		`}
 	>
-		{children.map(c => (
-			<Box key={c.id} position="relative" height={0} pb="100%">
+		{children.map(({ icon: Icon, ...c }) => (
+			<Box key={c.id} position="relative" height={0} pb={['25%', '100%']}>
 				<Link
 					position="absolute"
 					top={0}
@@ -34,13 +34,19 @@ const HomeChapters: FC<Props> = ({ children }) => (
 					bg={c.color}
 					color="white"
 				>
-					<Flex px={4} py={3} flexDirection="column" maxHeight="100%">
-						<Box as={c.icon} flex={1} minWidth={0} />
+					<Flex
+						px={4}
+						py={3}
+						flexDirection={['row', 'column']}
+						alignItems={['center', 'stretch']}
+						maxHeight="100%"
+					>
+						<Box as={Icon} flex={['0 0 25%', 1]} minWidth={0} pr={[3, 0]} />
 						<Text
 							fontSize="xl"
 							fontWeight="bold"
 							textAlign="center"
-							flexShrink={0}
+							flexShrink={[1, 0]}
 							mt={2}
 						>
 							{c.title}
