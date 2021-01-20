@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/PriruckaSenzorickeIntegrace/static/css/main.6ca35db5.chunk.css",
-    "main.js": "/PriruckaSenzorickeIntegrace/static/js/main.01939c40.chunk.js",
-    "main.js.map": "/PriruckaSenzorickeIntegrace/static/js/main.01939c40.chunk.js.map",
+    "main.css": "/PriruckaSenzorickeIntegrace/static/css/main.8d7ca87d.chunk.css",
+    "main.js": "/PriruckaSenzorickeIntegrace/static/js/main.790b4980.chunk.js",
+    "main.js.map": "/PriruckaSenzorickeIntegrace/static/js/main.790b4980.chunk.js.map",
     "runtime-main.js": "/PriruckaSenzorickeIntegrace/static/js/runtime-main.931aff4f.js",
     "runtime-main.js.map": "/PriruckaSenzorickeIntegrace/static/js/runtime-main.931aff4f.js.map",
     "static/css/2.8f976517.chunk.css": "/PriruckaSenzorickeIntegrace/static/css/2.8f976517.chunk.css",
-    "static/js/2.9f77d1e5.chunk.js": "/PriruckaSenzorickeIntegrace/static/js/2.9f77d1e5.chunk.js",
-    "static/js/2.9f77d1e5.chunk.js.map": "/PriruckaSenzorickeIntegrace/static/js/2.9f77d1e5.chunk.js.map",
+    "static/js/2.5a248662.chunk.js": "/PriruckaSenzorickeIntegrace/static/js/2.5a248662.chunk.js",
+    "static/js/2.5a248662.chunk.js.map": "/PriruckaSenzorickeIntegrace/static/js/2.5a248662.chunk.js.map",
     "index.html": "/PriruckaSenzorickeIntegrace/index.html",
     "static/css/2.8f976517.chunk.css.map": "/PriruckaSenzorickeIntegrace/static/css/2.8f976517.chunk.css.map",
-    "static/css/main.6ca35db5.chunk.css.map": "/PriruckaSenzorickeIntegrace/static/css/main.6ca35db5.chunk.css.map",
-    "static/js/2.9f77d1e5.chunk.js.LICENSE.txt": "/PriruckaSenzorickeIntegrace/static/js/2.9f77d1e5.chunk.js.LICENSE.txt",
+    "static/css/main.8d7ca87d.chunk.css.map": "/PriruckaSenzorickeIntegrace/static/css/main.8d7ca87d.chunk.css.map",
+    "static/js/2.5a248662.chunk.js.LICENSE.txt": "/PriruckaSenzorickeIntegrace/static/js/2.5a248662.chunk.js.LICENSE.txt",
     "static/media/stylesheet.css": "/PriruckaSenzorickeIntegrace/static/media/Raleway-ThinItalic.9a11bb6e.eot",
     "static/media/bag1.30ed69e3.png": "/PriruckaSenzorickeIntegrace/static/media/bag1.30ed69e3.png",
     "static/media/bag2.fedbaf11.jpg": "/PriruckaSenzorickeIntegrace/static/media/bag2.fedbaf11.jpg",
@@ -78,8 +78,8 @@
   "entrypoints": [
     "static/js/runtime-main.931aff4f.js",
     "static/css/2.8f976517.chunk.css",
-    "static/js/2.9f77d1e5.chunk.js",
-    "static/css/main.6ca35db5.chunk.css",
-    "static/js/main.01939c40.chunk.js"
+    "static/js/2.5a248662.chunk.js",
+    "static/css/main.8d7ca87d.chunk.css",
+    "static/js/main.790b4980.chunk.js"
   ]
 }
